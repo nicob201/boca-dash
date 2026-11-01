@@ -1,0 +1,6 @@
+{
+  "regions": ["gru1"],
+  "buildCommand": "npm run typecheck",
+  "outputDirectory": "public",
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
+}
