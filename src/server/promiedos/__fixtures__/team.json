@@ -1,0 +1,6100 @@
+{
+  "TTL": 600,
+  "competitor": {
+    "name": "Boca Juniors",
+    "short_name": "Boca Jrs.",
+    "url_name": "boca-juniors",
+    "id": "igg",
+    "country_id": "ba",
+    "allow_open": true,
+    "colors": {
+      "color": "#2D2E58",
+      "text_color": "#FFFFFF"
+    }
+  },
+  "main_league": {
+    "name": "Liga Profesional Argentina",
+    "id": "hc",
+    "url_name": "liga-profesional",
+    "country_id": "ba",
+    "show_country_flags": false,
+    "allow_open": true
+  },
+  "squad": {
+    "columns": [
+      {
+        "name": "Jugadores",
+        "key": "player"
+      },
+      {
+        "name": "EDAD",
+        "key": "age"
+      },
+      {
+        "name": "Nacimiento",
+        "key": "birthdate"
+      },
+      {
+        "name": "Altura",
+        "key": "height"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Dirección",
+        "rows": [
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Rodolfo Arruabarrena"
+              },
+              {
+                "key": "age",
+                "value": "51"
+              },
+              {
+                "key": "birthdate",
+                "value": "20/07/1975"
+              },
+              {
+                "key": "height",
+                "value": "1.75"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "",
+                "name": "Rodolfo Arruabarrena",
+                "sname": "R. Arruabarrena",
+                "position": "Dirección",
+                "formation_position": "Entrenador",
+                "age": "51",
+                "height": "1.75",
+                "weight": "0.074 kg",
+                "country_id": "ba",
+                "birthdate": "20/07/1975",
+                "is_staff": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Arqueros",
+        "rows": [
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Agustín Marchesín"
+              },
+              {
+                "key": "age",
+                "value": "38"
+              },
+              {
+                "key": "birthdate",
+                "value": "16/03/1988"
+              },
+              {
+                "key": "height",
+                "value": "1.88"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "",
+                "name": "Agustín Marchesín",
+                "sname": "Marchesín",
+                "position": "Arqueros",
+                "formation_position": "Arquero",
+                "age": "38",
+                "height": "1.88",
+                "weight": "77 kg",
+                "country_id": "ba",
+                "birthdate": "16/03/1988",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Álvaro Montero"
+              },
+              {
+                "key": "age",
+                "value": "31"
+              },
+              {
+                "key": "birthdate",
+                "value": "29/03/1995"
+              },
+              {
+                "key": "height",
+                "value": "2.01"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "1",
+                "name": "Álvaro Montero",
+                "sname": "Montero",
+                "position": "Arqueros",
+                "formation_position": "Arquero",
+                "age": "31",
+                "height": "2.01",
+                "weight": "0.098 kg",
+                "country_id": "baj",
+                "birthdate": "29/03/1995",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Leandro Brey"
+              },
+              {
+                "key": "age",
+                "value": "24"
+              },
+              {
+                "key": "birthdate",
+                "value": "21/09/2002"
+              },
+              {
+                "key": "height",
+                "value": "1.91"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "12",
+                "name": "Leandro Brey",
+                "sname": "Leandro Brey",
+                "position": "Arqueros",
+                "formation_position": "Arquero",
+                "age": "24",
+                "height": "1.91",
+                "weight": "0.089 kg",
+                "country_id": "ba",
+                "birthdate": "21/09/2002",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Javier García"
+              },
+              {
+                "key": "age",
+                "value": "39"
+              },
+              {
+                "key": "birthdate",
+                "value": "29/01/1987"
+              },
+              {
+                "key": "height",
+                "value": "1.80"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "30",
+                "name": "Javier García",
+                "sname": "García",
+                "position": "Arqueros",
+                "formation_position": "Arquero",
+                "age": "39",
+                "height": "1.80",
+                "weight": "75 kg",
+                "country_id": "ba",
+                "birthdate": "29/01/1987",
+                "is_staff": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Defensores",
+        "rows": [
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Lautaro Di Lollo"
+              },
+              {
+                "key": "age",
+                "value": "22"
+              },
+              {
+                "key": "birthdate",
+                "value": "10/03/2004"
+              },
+              {
+                "key": "height",
+                "value": "1.88"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "2",
+                "name": "Lautaro Di Lollo",
+                "sname": "Di Lollo",
+                "position": "Defensores",
+                "formation_position": "Defensa Central",
+                "age": "22",
+                "height": "1.88",
+                "weight": "0.086 kg",
+                "country_id": "ba",
+                "birthdate": "10/03/2004",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Lautaro Blanco"
+              },
+              {
+                "key": "age",
+                "value": "27"
+              },
+              {
+                "key": "birthdate",
+                "value": "19/02/1999"
+              },
+              {
+                "key": "height",
+                "value": "1.76"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "3",
+                "name": "Lautaro Blanco",
+                "sname": "Blanco",
+                "position": "Defensores",
+                "formation_position": "Defensa Lateral Izquierdo",
+                "age": "27",
+                "height": "1.76",
+                "weight": "0.081 kg",
+                "country_id": "ba",
+                "birthdate": "19/02/1999",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Nicolás Figal"
+              },
+              {
+                "key": "age",
+                "value": "32"
+              },
+              {
+                "key": "birthdate",
+                "value": "03/04/1994"
+              },
+              {
+                "key": "height",
+                "value": "1.80"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "4",
+                "name": "Nicolás Figal",
+                "sname": "Figal",
+                "position": "Defensores",
+                "formation_position": "Defensa Central",
+                "age": "32",
+                "height": "1.80",
+                "weight": "64 kg",
+                "country_id": "ba",
+                "birthdate": "03/04/1994",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Leandro Lozano"
+              },
+              {
+                "key": "age",
+                "value": "27"
+              },
+              {
+                "key": "birthdate",
+                "value": "19/12/1998"
+              },
+              {
+                "key": "height",
+                "value": "1.70"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "17",
+                "name": "Leandro Lozano",
+                "sname": "Lozano",
+                "position": "Defensores",
+                "formation_position": "Defensa Lateral Derecho",
+                "age": "27",
+                "height": "1.70",
+                "weight": "70 kg",
+                "country_id": "bbb",
+                "birthdate": "19/12/1998",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Dylan Gorosito"
+              },
+              {
+                "key": "age",
+                "value": "20"
+              },
+              {
+                "key": "birthdate",
+                "value": "03/02/2006"
+              },
+              {
+                "key": "height",
+                "value": "1.73"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "24",
+                "name": "Dylan Gorosito",
+                "sname": "Gorosito",
+                "position": "Defensores",
+                "formation_position": "Defensa Lateral Derecho",
+                "age": "20",
+                "height": "1.73",
+                "weight": "0.063 kg",
+                "country_id": "ba",
+                "birthdate": "03/02/2006",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Marco Pellegrino"
+              },
+              {
+                "key": "age",
+                "value": "24"
+              },
+              {
+                "key": "birthdate",
+                "value": "18/07/2002"
+              },
+              {
+                "key": "height",
+                "value": "1.84"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "26",
+                "name": "Marco Pellegrino",
+                "sname": "Pellegrino",
+                "position": "Defensores",
+                "formation_position": "Defensa Central",
+                "age": "24",
+                "height": "1.84",
+                "weight": "0.079 kg",
+                "country_id": "ba",
+                "birthdate": "18/07/2002",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Malcom Braida"
+              },
+              {
+                "key": "age",
+                "value": "29"
+              },
+              {
+                "key": "birthdate",
+                "value": "17/05/1997"
+              },
+              {
+                "key": "height",
+                "value": "1.75"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "27",
+                "name": "Malcom Braida",
+                "sname": "Braida",
+                "position": "Defensores",
+                "formation_position": "Defensa Lateral Izquierdo",
+                "age": "29",
+                "height": "1.75",
+                "weight": "0.07 kg",
+                "country_id": "ba",
+                "birthdate": "17/05/1997",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Ayrton Costa"
+              },
+              {
+                "key": "age",
+                "value": "27"
+              },
+              {
+                "key": "birthdate",
+                "value": "12/07/1999"
+              },
+              {
+                "key": "height",
+                "value": "1.79"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "32",
+                "name": "Ayrton Costa",
+                "sname": "Costa",
+                "position": "Defensores",
+                "formation_position": "Defensa Central",
+                "age": "27",
+                "height": "1.79",
+                "weight": "0.072 kg",
+                "country_id": "ba",
+                "birthdate": "12/07/1999",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Facundo Herrera"
+              },
+              {
+                "key": "age",
+                "value": "20"
+              },
+              {
+                "key": "birthdate",
+                "value": "11/07/2006"
+              },
+              {
+                "key": "height",
+                "value": "1.80"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "42",
+                "name": "Facundo Herrera",
+                "sname": "Herrera",
+                "position": "Defensores",
+                "formation_position": "Defensa Central",
+                "age": "20",
+                "height": "1.80",
+                "weight": "",
+                "country_id": "ba",
+                "birthdate": "11/07/2006",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Matías Satas"
+              },
+              {
+                "key": "age",
+                "value": "18"
+              },
+              {
+                "key": "birthdate",
+                "value": "28/02/2008"
+              },
+              {
+                "key": "height",
+                "value": "1.84"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "46",
+                "name": "Matías Satas",
+                "sname": "Matías Satas",
+                "position": "Defensores",
+                "formation_position": "Defensa Central",
+                "age": "18",
+                "height": "1.84",
+                "weight": "",
+                "country_id": "ba",
+                "birthdate": "28/02/2008",
+                "is_staff": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mediocampistas",
+        "rows": [
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Juan Ramirez"
+              },
+              {
+                "key": "age",
+                "value": "33"
+              },
+              {
+                "key": "birthdate",
+                "value": "25/05/1993"
+              },
+              {
+                "key": "height",
+                "value": "1.74"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "",
+                "name": "Juan Ramirez",
+                "sname": "Ramirez",
+                "position": "Mediocampistas",
+                "formation_position": "Mediocampista Central",
+                "age": "33",
+                "height": "1.74",
+                "weight": "68 kg",
+                "country_id": "ba",
+                "birthdate": "25/05/1993",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Leandro Paredes"
+              },
+              {
+                "key": "age",
+                "value": "32"
+              },
+              {
+                "key": "birthdate",
+                "value": "29/06/1994"
+              },
+              {
+                "key": "height",
+                "value": "1.82"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "5",
+                "name": "Leandro Paredes",
+                "sname": "Paredes",
+                "position": "Mediocampistas",
+                "formation_position": "Centrocampista defensivo",
+                "age": "32",
+                "height": "1.82",
+                "weight": "75 kg",
+                "country_id": "ba",
+                "birthdate": "29/06/1994",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Rodrigo Battaglia"
+              },
+              {
+                "key": "age",
+                "value": "35"
+              },
+              {
+                "key": "birthdate",
+                "value": "12/07/1991"
+              },
+              {
+                "key": "height",
+                "value": "1.87"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "6",
+                "name": "Rodrigo Battaglia",
+                "sname": "Battaglia",
+                "position": "Mediocampistas",
+                "formation_position": "Centrocampista defensivo",
+                "age": "35",
+                "height": "1.87",
+                "weight": "79 kg",
+                "country_id": "ba",
+                "birthdate": "12/07/1991",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Carlos Palacios"
+              },
+              {
+                "key": "age",
+                "value": "26"
+              },
+              {
+                "key": "birthdate",
+                "value": "20/07/2000"
+              },
+              {
+                "key": "height",
+                "value": "1.80"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "7",
+                "name": "Carlos Palacios",
+                "sname": "Palacios",
+                "position": "Mediocampistas",
+                "formation_position": "Mediocampista Ofensivo",
+                "age": "26",
+                "height": "1.80",
+                "weight": "0.079 kg",
+                "country_id": "ci",
+                "birthdate": "20/07/2000",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Tomás Belmonte"
+              },
+              {
+                "key": "age",
+                "value": "28"
+              },
+              {
+                "key": "birthdate",
+                "value": "27/05/1998"
+              },
+              {
+                "key": "height",
+                "value": "1.81"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "8",
+                "name": "Tomás Belmonte",
+                "sname": "Tomás Belmonte",
+                "position": "Mediocampistas",
+                "formation_position": "Centrocampista defensivo",
+                "age": "28",
+                "height": "1.81",
+                "weight": "68 kg",
+                "country_id": "ba",
+                "birthdate": "27/05/1998",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Tomás Aranda"
+              },
+              {
+                "key": "age",
+                "value": "19"
+              },
+              {
+                "key": "birthdate",
+                "value": "09/05/2007"
+              },
+              {
+                "key": "height",
+                "value": "1.72"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "10",
+                "name": "Tomás Aranda",
+                "sname": "Aranda",
+                "position": "Mediocampistas",
+                "formation_position": "Mediocampista Ofensivo",
+                "age": "19",
+                "height": "1.72",
+                "weight": "0.066 kg",
+                "country_id": "ba",
+                "birthdate": "09/05/2007",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Williams Alarcón"
+              },
+              {
+                "key": "age",
+                "value": "25"
+              },
+              {
+                "key": "birthdate",
+                "value": "29/11/2000"
+              },
+              {
+                "key": "height",
+                "value": "1.82"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "15",
+                "name": "Williams Alarcón",
+                "sname": "Alarcón",
+                "position": "Mediocampistas",
+                "formation_position": "Mediocampista Central",
+                "age": "25",
+                "height": "1.82",
+                "weight": "0.077 kg",
+                "country_id": "ci",
+                "birthdate": "29/11/2000",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Milton Delgado"
+              },
+              {
+                "key": "age",
+                "value": "21"
+              },
+              {
+                "key": "birthdate",
+                "value": "16/06/2005"
+              },
+              {
+                "key": "height",
+                "value": "1.66"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "18",
+                "name": "Milton Delgado",
+                "sname": "Delgado",
+                "position": "Mediocampistas",
+                "formation_position": "Centrocampista defensivo",
+                "age": "21",
+                "height": "1.66",
+                "weight": "0.063 kg",
+                "country_id": "ba",
+                "birthdate": "16/06/2005",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Camilo Rey Domenech"
+              },
+              {
+                "key": "age",
+                "value": "20"
+              },
+              {
+                "key": "birthdate",
+                "value": "10/03/2006"
+              },
+              {
+                "key": "height",
+                "value": "1.78"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "23",
+                "name": "Camilo Rey Domenech",
+                "sname": "Rey",
+                "position": "Mediocampistas",
+                "formation_position": "Centrocampista defensivo",
+                "age": "20",
+                "height": "1.78",
+                "weight": "0.072 kg",
+                "country_id": "ba",
+                "birthdate": "10/03/2006",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Santiago Ascacibar"
+              },
+              {
+                "key": "age",
+                "value": "29"
+              },
+              {
+                "key": "birthdate",
+                "value": "25/02/1997"
+              },
+              {
+                "key": "height",
+                "value": "1.69"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "25",
+                "name": "Santiago Ascacibar",
+                "sname": "Ascacibar",
+                "position": "Mediocampistas",
+                "formation_position": "Centrocampista defensivo",
+                "age": "29",
+                "height": "1.69",
+                "weight": "68 kg",
+                "country_id": "ba",
+                "birthdate": "25/02/1997",
+                "is_staff": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Delanteros",
+        "rows": [
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Milton Giménez"
+              },
+              {
+                "key": "age",
+                "value": "30"
+              },
+              {
+                "key": "birthdate",
+                "value": "12/08/1996"
+              },
+              {
+                "key": "height",
+                "value": "1.84"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "9",
+                "name": "Milton Giménez",
+                "sname": "Giménez",
+                "position": "Delanteros",
+                "formation_position": "Centro Delantero",
+                "age": "30",
+                "height": "1.84",
+                "weight": "0.083 kg",
+                "country_id": "ba",
+                "birthdate": "12/08/1996",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Angel Romero"
+              },
+              {
+                "key": "age",
+                "value": "34"
+              },
+              {
+                "key": "birthdate",
+                "value": "04/07/1992"
+              },
+              {
+                "key": "height",
+                "value": "1.76"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "11",
+                "name": "Angel Romero",
+                "sname": "Romero",
+                "position": "Delanteros",
+                "formation_position": "Delantero Derecho",
+                "age": "34",
+                "height": "1.76",
+                "weight": "76 kg",
+                "country_id": "bai",
+                "birthdate": "04/07/1992",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Enner Valencia"
+              },
+              {
+                "key": "age",
+                "value": "37"
+              },
+              {
+                "key": "birthdate",
+                "value": "04/11/1989"
+              },
+              {
+                "key": "height",
+                "value": "1.77"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "13",
+                "name": "Enner Valencia",
+                "sname": "Valencia",
+                "position": "Delanteros",
+                "formation_position": "Centro Delantero",
+                "age": "37",
+                "height": "1.77",
+                "weight": "0.073 kg",
+                "country_id": "fb",
+                "birthdate": "04/11/1989",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Miguel Merentiel"
+              },
+              {
+                "key": "age",
+                "value": "30"
+              },
+              {
+                "key": "birthdate",
+                "value": "24/02/1996"
+              },
+              {
+                "key": "height",
+                "value": "1.76"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "16",
+                "name": "Miguel Merentiel",
+                "sname": "Merentiel",
+                "position": "Delanteros",
+                "formation_position": "Centro Delantero",
+                "age": "30",
+                "height": "1.76",
+                "weight": "70 kg",
+                "country_id": "bbb",
+                "birthdate": "24/02/1996",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Leonel Flores"
+              },
+              {
+                "key": "age",
+                "value": "19"
+              },
+              {
+                "key": "birthdate",
+                "value": "06/02/2007"
+              },
+              {
+                "key": "height",
+                "value": "1.77"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "19",
+                "name": "Leonel Flores",
+                "sname": "Flores",
+                "position": "Delanteros",
+                "formation_position": "Delantero Derecho",
+                "age": "19",
+                "height": "1.77",
+                "weight": "",
+                "country_id": "ba",
+                "birthdate": "06/02/2007",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Alan Velasco"
+              },
+              {
+                "key": "age",
+                "value": "24"
+              },
+              {
+                "key": "birthdate",
+                "value": "27/07/2002"
+              },
+              {
+                "key": "height",
+                "value": "1.67"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "20",
+                "name": "Alan Velasco",
+                "sname": "Alan Velasco",
+                "position": "Delanteros",
+                "formation_position": "Delantero Izquierdo",
+                "age": "24",
+                "height": "1.67",
+                "weight": "63 kg",
+                "country_id": "ba",
+                "birthdate": "27/07/2002",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Sebastián Villa"
+              },
+              {
+                "key": "age",
+                "value": "30"
+              },
+              {
+                "key": "birthdate",
+                "value": "19/05/1996"
+              },
+              {
+                "key": "height",
+                "value": "1.79"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "22",
+                "name": "Sebastián Villa",
+                "sname": "Villa",
+                "position": "Delanteros",
+                "formation_position": "Delantero Izquierdo",
+                "age": "30",
+                "height": "1.79",
+                "weight": "65 kg",
+                "country_id": "baj",
+                "birthdate": "19/05/1996",
+                "is_staff": false
+              }
+            }
+          },
+          {
+            "values": [
+              {
+                "key": "player",
+                "value": "Adam Bareiro"
+              },
+              {
+                "key": "age",
+                "value": "30"
+              },
+              {
+                "key": "birthdate",
+                "value": "26/07/1996"
+              },
+              {
+                "key": "height",
+                "value": "1.80"
+              }
+            ],
+            "entity": {
+              "type": 2,
+              "object": {
+                "num": "28",
+                "name": "Adam Bareiro",
+                "sname": "Bareiro",
+                "position": "Delanteros",
+                "formation_position": "Centro Delantero",
+                "age": "30",
+                "height": "1.80",
+                "weight": "0.084 kg",
+                "country_id": "bai",
+                "birthdate": "26/07/1996",
+                "is_staff": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "games": {
+    "preview_rows_num": 5,
+    "next": {
+      "name": "PRÓXIMOS PARTIDOS",
+      "columns": [
+        {
+          "name": "Día",
+          "key": "date"
+        },
+        {
+          "name": "L/V",
+          "key": "home_away"
+        },
+        {
+          "name": "vs Equipo",
+          "key": "opponent"
+        },
+        {
+          "name": "Hora",
+          "key": "time"
+        }
+      ],
+      "rows": [
+        {
+          "num": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "21/11"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "time",
+              "value": "19:30"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Atlético Mineiro",
+              "short_name": "Atlético Mineiro",
+              "url_name": "atletico-mineiro",
+              "id": "bcaj",
+              "country_id": "cb",
+              "allow_open": true,
+              "colors": {
+                "color": "#000000",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eiiddih",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Atlético Mineiro",
+                "short_name": "Atlético Mineiro",
+                "url_name": "atletico-mineiro",
+                "id": "bcaj",
+                "country_id": "cb",
+                "allow_open": true,
+                "colors": {
+                  "color": "#000000",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "atletico-mineiro-vs-boca-juniors",
+            "status": {
+              "enum": 1,
+              "name": "Prog.",
+              "short_name": "Prog.",
+              "symbol_name": "Prog."
+            },
+            "start_time": "21-11-2026 19:30",
+            "game_time": -1,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Prog."
+          }
+        },
+        {
+          "num": 2,
+          "values": [
+            {
+              "key": "date",
+              "value": "25/11"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "time",
+              "value": "21:00"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Independiente Rivadavia",
+              "short_name": "Independiente Rivadavia",
+              "url_name": "independiente-rivadavia",
+              "id": "hcch",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#14163F",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eijbgji",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Independiente Rivadavia",
+                "short_name": "Independiente Rivadavia",
+                "url_name": "independiente-rivadavia",
+                "id": "hcch",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#14163F",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-independiente-rivadavia",
+            "status": {
+              "enum": 1,
+              "name": "Prog.",
+              "short_name": "Prog.",
+              "symbol_name": "Prog."
+            },
+            "start_time": "25-11-2026 21:00",
+            "game_time": -1,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Prog."
+          }
+        },
+        {
+          "num": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "02/12"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "time",
+              "value": "14:00"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Platense",
+              "short_name": "Platense",
+              "url_name": "platense",
+              "id": "hcah",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eijedca",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Platense",
+                "short_name": "Platense",
+                "url_name": "platense",
+                "id": "hcah",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-platense",
+            "status": {
+              "enum": 1,
+              "name": "Prog.",
+              "short_name": "Prog.",
+              "symbol_name": "Prog."
+            },
+            "start_time": "02-12-2026 14:00",
+            "game_time": -1,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Prog."
+          }
+        }
+      ]
+    },
+    "last": {
+      "name": "Resultados",
+      "columns": [
+        {
+          "name": "Día",
+          "key": "date"
+        },
+        {
+          "name": "L/V",
+          "key": "home_away"
+        },
+        {
+          "name": "vs Equipo",
+          "key": "opponent"
+        },
+        {
+          "name": "Res",
+          "key": "result"
+        }
+      ],
+      "rows": [
+        {
+          "num": 1,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "19/05"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Cruzeiro",
+              "short_name": "Cruzeiro",
+              "url_name": "cruzeiro",
+              "id": "bcbd",
+              "country_id": "cb",
+              "allow_open": true,
+              "colors": {
+                "color": "#0455A3",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egjacaj",
+            "stage_round_name": "Fecha 5",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Cruzeiro",
+                "short_name": "Cruzeiro",
+                "url_name": "cruzeiro",
+                "id": "bcbd",
+                "country_id": "cb",
+                "allow_open": true,
+                "colors": {
+                  "color": "#0455A3",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-cruzeiro",
+            "scores": [
+              1,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "19-05-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 2,
+          "result_status": 2,
+          "values": [
+            {
+              "key": "date",
+              "value": "28/05"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "0-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Universidad Católica",
+              "short_name": "U. Católica",
+              "url_name": "u.-catolica",
+              "id": "bcef",
+              "country_id": "ci",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egjacba",
+            "stage_round_name": "Fecha 6",
+            "winner": 2,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Universidad Católica",
+                "short_name": "U. Católica",
+                "url_name": "u.-catolica",
+                "id": "bcef",
+                "country_id": "ci",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-u.-catolica",
+            "scores": [
+              0,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "28-05-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 3,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "04/07"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Defensa y Justicia",
+              "short_name": "Defensa",
+              "url_name": "defensa-y-justicia",
+              "id": "hcbh",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFF00",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "ehffije",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Defensa y Justicia",
+                "short_name": "Defensa",
+                "url_name": "defensa-y-justicia",
+                "id": "hcbh",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFF00",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-defensa-y-justicia",
+            "scores": [
+              1,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "04-07-2026 10:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 4,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "08/07"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Athletico Paranaense",
+              "short_name": "Paranaense",
+              "url_name": "athletico-paranaense",
+              "id": "bcba",
+              "country_id": "cb",
+              "allow_open": true,
+              "colors": {
+                "color": "#CC0000",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "ehfaeea",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Athletico Paranaense",
+                "short_name": "Paranaense",
+                "url_name": "athletico-paranaense",
+                "id": "bcba",
+                "country_id": "cb",
+                "allow_open": true,
+                "colors": {
+                  "color": "#CC0000",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-athletico-paranaense",
+            "scores": [
+              1,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "08-07-2026 21:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 5,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "16/07"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "0-2"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Sarmiento",
+              "short_name": "Sarmiento",
+              "url_name": "sarmiento-junin",
+              "id": "hbbh",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#4AA575",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "ehaaghc",
+            "winner": 2,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "Sarmiento",
+                "short_name": "Sarmiento",
+                "url_name": "sarmiento-junin",
+                "id": "hbbh",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#4AA575",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "sarmiento-junin-vs-boca-juniors",
+            "scores": [
+              0,
+              2
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "16-07-2026 21:45",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 6,
+          "result_status": 2,
+          "values": [
+            {
+              "key": "date",
+              "value": "18/07"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "0-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Ferro Carril Oeste",
+              "short_name": "Ferro",
+              "url_name": "ferro-carril-oeste",
+              "id": "hcbi",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#125F31",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "ehhiifj",
+            "winner": 2,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Ferro Carril Oeste",
+                "short_name": "Ferro",
+                "url_name": "ferro-carril-oeste",
+                "id": "hcbi",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#125F31",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-ferro-carril-oeste",
+            "scores": [
+              0,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "18-07-2026 11:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 7,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "23/07"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "O'Higgins",
+              "short_name": "O'Higgins",
+              "url_name": "o-higgins",
+              "id": "bcde",
+              "country_id": "ci",
+              "allow_open": true,
+              "colors": {
+                "color": "#768FE7",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "ehciaab",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "O'Higgins",
+                "short_name": "O'Higgins",
+                "url_name": "o-higgins",
+                "id": "bcde",
+                "country_id": "ci",
+                "allow_open": true,
+                "colors": {
+                  "color": "#768FE7",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-o-higgins",
+            "scores": [
+              1,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "23-07-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 8,
+          "result_status": 2,
+          "values": [
+            {
+              "key": "date",
+              "value": "26/07"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "3-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Deportivo Riestra",
+              "short_name": "Riestra",
+              "url_name": "riestra",
+              "id": "bbjea",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#28272C",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddedd",
+            "stage_round_name": "Fecha 1",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Deportivo Riestra",
+                "short_name": "Riestra",
+                "url_name": "riestra",
+                "id": "bbjea",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#28272C",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "riestra-vs-boca-juniors",
+            "scores": [
+              3,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "26-07-2026 19:30",
+            "game_time": 95,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 9,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "30/07"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "O'Higgins",
+              "short_name": "O'Higgins",
+              "url_name": "o-higgins",
+              "id": "bcde",
+              "country_id": "ci",
+              "allow_open": true,
+              "colors": {
+                "color": "#768FE7",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "ehciaaf",
+            "winner": 2,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "O'Higgins",
+                "short_name": "O'Higgins",
+                "url_name": "o-higgins",
+                "id": "bcde",
+                "country_id": "ci",
+                "allow_open": true,
+                "colors": {
+                  "color": "#768FE7",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "o-higgins-vs-boca-juniors",
+            "scores": [
+              1,
+              0
+            ],
+            "penalties": [
+              3,
+              4
+            ],
+            "agg_scores": [
+              1,
+              1
+            ],
+            "description": "Global 1 - 1",
+            "status": {
+              "enum": 3,
+              "name": "Por penales",
+              "short_name": "Por penales",
+              "symbol_name": "Pen"
+            },
+            "start_time": "30-07-2026 21:30",
+            "game_time": 125,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Por penales"
+          }
+        },
+        {
+          "num": 10,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "02/08"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "2-2"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Newell's Old Boys",
+              "short_name": "Newell's",
+              "url_name": "newell's-old-boys",
+              "id": "ihh",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FD0808",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddeaf",
+            "stage_round_name": "Fecha 3",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Newell's Old Boys",
+                "short_name": "Newell's",
+                "url_name": "newell's-old-boys",
+                "id": "ihh",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FD0808",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "newell's-old-boys-vs-boca-juniors",
+            "scores": [
+              2,
+              2
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "02-08-2026 17:00",
+            "game_time": 102,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 11,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "05/08"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Estudiantes de La Plata",
+              "short_name": "Estudiantes",
+              "url_name": "estudiantes-de-la-plata",
+              "id": "igh",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FAFAFA",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddebg",
+            "stage_round_name": "Fecha 2",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Estudiantes de La Plata",
+                "short_name": "Estudiantes",
+                "url_name": "estudiantes-de-la-plata",
+                "id": "igh",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FAFAFA",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-estudiantes-de-la-plata",
+            "scores": [
+              1,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "05-08-2026 19:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 12,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "08/08"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Vélez Sarsfield",
+              "short_name": "Vélez",
+              "url_name": "velez-sarsfield",
+              "id": "ihc",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egdddih",
+            "stage_round_name": "Fecha 4",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Vélez Sarsfield",
+                "short_name": "Vélez",
+                "url_name": "velez-sarsfield",
+                "id": "ihc",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-velez-sarsfield",
+            "scores": [
+              1,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "08-08-2026 19:15",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 13,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "11/08"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "3-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Recoleta FC",
+              "short_name": "Recoleta FC",
+              "url_name": "cd-recoleta",
+              "id": "fdcaj",
+              "country_id": "bai",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFDE05",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eiaafei",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Recoleta FC",
+                "short_name": "Recoleta FC",
+                "url_name": "cd-recoleta",
+                "id": "fdcaj",
+                "country_id": "bai",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFDE05",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-cd-recoleta",
+            "scores": [
+              3,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "11-08-2026 19:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 14,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "15/08"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "1-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Platense",
+              "short_name": "Platense",
+              "url_name": "platense",
+              "id": "hcah",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egdddhe",
+            "stage_round_name": "Fecha 5",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Platense",
+                "short_name": "Platense",
+                "url_name": "platense",
+                "id": "hcah",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "platense-vs-boca-juniors",
+            "scores": [
+              1,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "15-08-2026 21:15",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 15,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "18/08"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "0-4"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Recoleta FC",
+              "short_name": "Recoleta FC",
+              "url_name": "cd-recoleta",
+              "id": "fdcaj",
+              "country_id": "bai",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFDE05",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eiaafej",
+            "winner": 2,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "Recoleta FC",
+                "short_name": "Recoleta FC",
+                "url_name": "cd-recoleta",
+                "id": "fdcaj",
+                "country_id": "bai",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFDE05",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "cd-recoleta-vs-boca-juniors",
+            "scores": [
+              0,
+              4
+            ],
+            "agg_scores": [
+              1,
+              7
+            ],
+            "description": "Global 1 - 7",
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "18-08-2026 19:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 16,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "23/08"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "1-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Racing Club",
+              "short_name": "Racing",
+              "url_name": "racing-club",
+              "id": "ihg",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egdddej",
+            "stage_round_name": "Fecha 6",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Racing Club",
+                "short_name": "Racing",
+                "url_name": "racing-club",
+                "id": "ihg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "racing-club-vs-boca-juniors",
+            "scores": [
+              1,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "23-08-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 17,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "28/08"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Lanús",
+              "short_name": "Lanús",
+              "url_name": "lanus",
+              "id": "igj",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#753E4A",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddded",
+            "stage_round_name": "Fecha 7",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Lanús",
+                "short_name": "Lanús",
+                "url_name": "lanus",
+                "id": "igj",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#753E4A",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-lanus",
+            "scores": [
+              1,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "28-08-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 18,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "02/09"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "0-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Vélez Sarsfield",
+              "short_name": "Vélez",
+              "url_name": "velez-sarsfield",
+              "id": "ihc",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "ehhgjea",
+            "winner": 2,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "Vélez Sarsfield",
+                "short_name": "Vélez",
+                "url_name": "velez-sarsfield",
+                "id": "ihc",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "velez-sarsfield-vs-boca-juniors",
+            "scores": [
+              0,
+              0
+            ],
+            "penalties": [
+              3,
+              4
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Por penales",
+              "short_name": "Por penales",
+              "symbol_name": "Pen"
+            },
+            "start_time": "02-09-2026 21:15",
+            "game_time": 120,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Por penales"
+          }
+        },
+        {
+          "num": 19,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "05/09"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "2-2"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Gimnasia y Esgrima",
+              "short_name": "Gimnasia y Esgrima",
+              "url_name": "gimnasia-mendoza",
+              "id": "bbjbf",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egdddci",
+            "stage_round_name": "Fecha 8",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Gimnasia y Esgrima",
+                "short_name": "Gimnasia y Esgrima",
+                "url_name": "gimnasia-mendoza",
+                "id": "bbjbf",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "gimnasia-mendoza-vs-boca-juniors",
+            "scores": [
+              2,
+              2
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "05-09-2026 16:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 20,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "08/09"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "São Paulo",
+              "short_name": "São Paulo",
+              "url_name": "sao-paulo",
+              "id": "bccf",
+              "country_id": "cb",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eibiiia",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "São Paulo",
+                "short_name": "São Paulo",
+                "url_name": "sao-paulo",
+                "id": "bccf",
+                "country_id": "cb",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-sao-paulo",
+            "scores": [
+              1,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "08-09-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 21,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "11/09"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "3-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Central Córdoba",
+              "short_name": "Central Córdoba",
+              "url_name": "central-cordoba-sde",
+              "id": "beafh",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#000000",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egdddbe",
+            "stage_round_name": "Fecha 9",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Central Córdoba",
+                "short_name": "Central Córdoba",
+                "url_name": "central-cordoba-sde",
+                "id": "beafh",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#000000",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-central-cordoba-sde",
+            "scores": [
+              3,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "11-09-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 22,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "15/09"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "1-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "São Paulo",
+              "short_name": "São Paulo",
+              "url_name": "sao-paulo",
+              "id": "bccf",
+              "country_id": "cb",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eibiiib",
+            "winner": -1,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "São Paulo",
+                "short_name": "São Paulo",
+                "url_name": "sao-paulo",
+                "id": "bccf",
+                "country_id": "cb",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "sao-paulo-vs-boca-juniors",
+            "scores": [
+              1,
+              1
+            ],
+            "agg_scores": [
+              1,
+              2
+            ],
+            "description": "Global 1 - 2",
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "15-09-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 23,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "20/09"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "0-2"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "San Lorenzo",
+              "short_name": "San Lorenzo",
+              "url_name": "san-lorenzo",
+              "id": "igf",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#293592",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddcjh",
+            "stage_round_name": "Fecha 10",
+            "winner": 2,
+            "teams": [
+              {
+                "name": "San Lorenzo",
+                "short_name": "San Lorenzo",
+                "url_name": "san-lorenzo",
+                "id": "igf",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#293592",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "san-lorenzo-vs-boca-juniors",
+            "scores": [
+              0,
+              2
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "20-09-2026 14:45",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 24,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "27/09"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "2-3"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Racing Club",
+              "short_name": "Racing",
+              "url_name": "racing-club",
+              "id": "ihg",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eiefbdg",
+            "winner": 2,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "Racing Club",
+                "short_name": "Racing",
+                "url_name": "racing-club",
+                "id": "ihg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "racing-club-vs-boca-juniors",
+            "scores": [
+              2,
+              3
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "27-09-2026 17:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 25,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "02/10"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "3-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Unión",
+              "short_name": "Unión",
+              "url_name": "union-santa-fe",
+              "id": "hcag",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#E93F2D",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddcif",
+            "stage_round_name": "Fecha 11",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Unión",
+                "short_name": "Unión",
+                "url_name": "union-santa-fe",
+                "id": "hcag",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#E93F2D",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-union-santa-fe",
+            "scores": [
+              3,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "02-10-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 26,
+          "result_status": 3,
+          "values": [
+            {
+              "key": "date",
+              "value": "09/10"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "2-2"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Instituto",
+              "short_name": "Instituto",
+              "url_name": "instituto-ac-cordoba",
+              "id": "hchc",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FF0000",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddcgg",
+            "stage_round_name": "Fecha 12",
+            "winner": -1,
+            "teams": [
+              {
+                "name": "Instituto",
+                "short_name": "Instituto",
+                "url_name": "instituto-ac-cordoba",
+                "id": "hchc",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FF0000",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "instituto-ac-cordoba-vs-boca-juniors",
+            "scores": [
+              2,
+              2
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "09-10-2026 19:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 27,
+          "result_status": 2,
+          "values": [
+            {
+              "key": "date",
+              "value": "13/10"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "0-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Vasco Da Gama",
+              "short_name": "Vasco Da Gama",
+              "url_name": "vasco-da-gama",
+              "id": "bcch",
+              "country_id": "cb",
+              "allow_open": true,
+              "colors": {
+                "color": "#000000",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eifgijh",
+            "winner": 2,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Vasco Da Gama",
+                "short_name": "Vasco Da Gama",
+                "url_name": "vasco-da-gama",
+                "id": "bcch",
+                "country_id": "cb",
+                "allow_open": true,
+                "colors": {
+                  "color": "#000000",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-vasco-da-gama",
+            "scores": [
+              0,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "13-10-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 28,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "16/10"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "2-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Talleres",
+              "short_name": "Talleres",
+              "url_name": "talleres-cordoba",
+              "id": "jche",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddcfg",
+            "stage_round_name": "Fecha 13",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Talleres",
+                "short_name": "Talleres",
+                "url_name": "talleres-cordoba",
+                "id": "jche",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-talleres-cordoba",
+            "scores": [
+              2,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "16-10-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 29,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "20/10"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "1-3"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Vasco Da Gama",
+              "short_name": "Vasco Da Gama",
+              "url_name": "vasco-da-gama",
+              "id": "bcch",
+              "country_id": "cb",
+              "allow_open": true,
+              "colors": {
+                "color": "#000000",
+                "text_color": "#FFFFFF"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eifgiji",
+            "winner": 2,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "Vasco Da Gama",
+                "short_name": "Vasco Da Gama",
+                "url_name": "vasco-da-gama",
+                "id": "bcch",
+                "country_id": "cb",
+                "allow_open": true,
+                "colors": {
+                  "color": "#000000",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "vasco-da-gama-vs-boca-juniors",
+            "scores": [
+              1,
+              3
+            ],
+            "agg_scores": [
+              2,
+              3
+            ],
+            "description": "Global 2 - 3",
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "20-10-2026 21:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 30,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "25/10"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "0-1"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Independiente",
+              "short_name": "Independiente",
+              "url_name": "independiente",
+              "id": "ihe",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FF0000",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddcdf",
+            "stage_round_name": "Fecha 14",
+            "winner": 2,
+            "teams": [
+              {
+                "name": "Independiente",
+                "short_name": "Independiente",
+                "url_name": "independiente",
+                "id": "ihe",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FF0000",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "independiente-vs-boca-juniors",
+            "scores": [
+              0,
+              1
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "25-10-2026 17:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 31,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "01/11"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "River Plate",
+              "short_name": "River",
+              "url_name": "river-plate",
+              "id": "igi",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddcch",
+            "stage_round_name": "Fecha 15",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "River Plate",
+                "short_name": "River",
+                "url_name": "river-plate",
+                "id": "igi",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-river-plate",
+            "scores": [
+              1,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "01-11-2026 15:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 32,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "07/11"
+            },
+            {
+              "key": "home_away",
+              "value": "L"
+            },
+            {
+              "key": "result",
+              "value": "1-0"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Defensa y Justicia",
+              "short_name": "Defensa",
+              "url_name": "defensa-y-justicia",
+              "id": "hcbh",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFF00",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "egddcaf",
+            "stage_round_name": "Fecha 16",
+            "winner": 1,
+            "teams": [
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Defensa y Justicia",
+                "short_name": "Defensa",
+                "url_name": "defensa-y-justicia",
+                "id": "hcbh",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFF00",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "boca-juniors-vs-defensa-y-justicia",
+            "scores": [
+              1,
+              0
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "07-11-2026 17:30",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        },
+        {
+          "num": 33,
+          "result_status": 1,
+          "values": [
+            {
+              "key": "date",
+              "value": "14/11"
+            },
+            {
+              "key": "home_away",
+              "value": "V"
+            },
+            {
+              "key": "result",
+              "value": "0-3"
+            }
+          ],
+          "entity": {
+            "type": 1,
+            "object": {
+              "name": "Banfield",
+              "short_name": "Banfield",
+              "url_name": "banfield",
+              "id": "ihi",
+              "country_id": "ba",
+              "allow_open": true,
+              "colors": {
+                "color": "#FFFFFF",
+                "text_color": "#000000"
+              },
+              "red_cards": 0
+            }
+          },
+          "game": {
+            "id": "eiggbcj",
+            "winner": 2,
+            "to_qualify": 2,
+            "teams": [
+              {
+                "name": "Banfield",
+                "short_name": "Banfield",
+                "url_name": "banfield",
+                "id": "ihi",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#FFFFFF",
+                  "text_color": "#000000"
+                },
+                "red_cards": 0
+              },
+              {
+                "name": "Boca Juniors",
+                "short_name": "Boca Jrs.",
+                "url_name": "boca-juniors",
+                "id": "igg",
+                "country_id": "ba",
+                "allow_open": true,
+                "colors": {
+                  "color": "#2D2E58",
+                  "text_color": "#FFFFFF"
+                },
+                "red_cards": 0
+              }
+            ],
+            "url_name": "banfield-vs-boca-juniors",
+            "scores": [
+              0,
+              3
+            ],
+            "status": {
+              "enum": 3,
+              "name": "Finalizado",
+              "short_name": "Final",
+              "symbol_name": "Fin"
+            },
+            "start_time": "14-11-2026 19:00",
+            "game_time": 90,
+            "game_time_to_display": "",
+            "game_time_status_to_display": "Final"
+          }
+        }
+      ]
+    }
+  },
+  "stats": {
+    "preview_rows_num": 6,
+    "filters": [
+      {
+        "name": "Liga Profesional Argentina - Clausura",
+        "key": "72_228_2",
+        "selected": true,
+        "tables": [
+          {
+            "name": "Goles",
+            "columns": [
+              {
+                "key": "Goals",
+                "title": "Goles",
+                "type": 1,
+                "is_bold": true
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Miguel Merentiel",
+                    "short_name": "Merentiel",
+                    "country_id": "bbb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "num": 2,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Santiago Ascacibar",
+                    "short_name": "Ascacibar",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "5"
+                  }
+                ]
+              },
+              {
+                "num": 3,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Alan Velasco",
+                    "short_name": "Alan Velasco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "4"
+                  }
+                ]
+              },
+              {
+                "num": 4,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Milton Giménez",
+                    "short_name": "Giménez",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "4"
+                  }
+                ]
+              },
+              {
+                "num": 5,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Adam Bareiro",
+                    "short_name": "Bareiro",
+                    "country_id": "bai",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 6,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Angel Romero",
+                    "short_name": "Romero",
+                    "country_id": "bai",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 7,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Enner Valencia",
+                    "short_name": "Valencia",
+                    "country_id": "fb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 8,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Di Lollo",
+                    "short_name": "Di Lollo",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 9,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leonel Flores",
+                    "short_name": "Flores",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 10,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leandro Paredes",
+                    "short_name": "Paredes",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 11,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Exequiel Zeballos",
+                    "short_name": "Zeballos",
+                    "country_id": "ba",
+                    "team_id": "cjd"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 12,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Facundo Herrera",
+                    "short_name": "Herrera",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 13,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Iker Zufiaurre",
+                    "short_name": "Zufiaurre",
+                    "country_id": "ba",
+                    "team_id": "fbfcc"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 14,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Kevin Zenon",
+                    "short_name": "Zenon",
+                    "country_id": "ba",
+                    "team_id": "bcfi"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 15,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Blanco",
+                    "short_name": "Blanco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 16,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leandro Lozano",
+                    "short_name": "Lozano",
+                    "country_id": "bbb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 17,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Aranda",
+                    "short_name": "Aranda",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 18,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Belmonte",
+                    "short_name": "Tomás Belmonte",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Goals",
+                    "value": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Asistencias",
+            "columns": [
+              {
+                "key": "Assists",
+                "title": "Asistencias",
+                "type": 1,
+                "is_bold": true
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Blanco",
+                    "short_name": "Blanco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "5"
+                  }
+                ]
+              },
+              {
+                "num": 2,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leandro Paredes",
+                    "short_name": "Paredes",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "4"
+                  }
+                ]
+              },
+              {
+                "num": 3,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Exequiel Zeballos",
+                    "short_name": "Zeballos",
+                    "country_id": "ba",
+                    "team_id": "cjd"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 4,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Sebastián Villa",
+                    "short_name": "Villa",
+                    "country_id": "baj",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 5,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Aranda",
+                    "short_name": "Aranda",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 6,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Dylan Gorosito",
+                    "short_name": "Gorosito",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 7,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Enner Valencia",
+                    "short_name": "Valencia",
+                    "country_id": "fb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 8,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leonel Flores",
+                    "short_name": "Flores",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 9,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Miguel Merentiel",
+                    "short_name": "Merentiel",
+                    "country_id": "bbb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 10,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Santiago Ascacibar",
+                    "short_name": "Ascacibar",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 11,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Milton Delgado",
+                    "short_name": "Delgado",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 12,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Gonzalo Gelini",
+                    "short_name": "Gelini",
+                    "country_id": "ba",
+                    "team_id": "hhgg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 13,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Carlos Palacios",
+                    "short_name": "Palacios",
+                    "country_id": "ci",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 14,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Adam Bareiro",
+                    "short_name": "Bareiro",
+                    "country_id": "bai",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 15,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Williams Alarcón",
+                    "short_name": "Alarcón",
+                    "country_id": "ci",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 16,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Belmonte",
+                    "short_name": "Tomás Belmonte",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 17,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Alan Velasco",
+                    "short_name": "Alan Velasco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 18,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Di Lollo",
+                    "short_name": "Di Lollo",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "Assists",
+                    "value": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Barridas ganadas",
+            "columns": [
+              {
+                "key": "TotalFoulsConceded",
+                "title": "Total Fouls Conceded",
+                "type": 1,
+                "is_bold": true
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Matías Satas",
+                    "short_name": "Matías Satas",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 2,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Juan Barinaga",
+                    "short_name": "Barinaga",
+                    "country_id": "ba",
+                    "team_id": "ihg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.7"
+                  }
+                ]
+              },
+              {
+                "num": 3,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Dylan Gorosito",
+                    "short_name": "Gorosito",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.7"
+                  }
+                ]
+              },
+              {
+                "num": 4,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Marco Pellegrino",
+                    "short_name": "Pellegrino",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.5"
+                  }
+                ]
+              },
+              {
+                "num": 5,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Carlos Palacios",
+                    "short_name": "Palacios",
+                    "country_id": "ci",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.5"
+                  }
+                ]
+              },
+              {
+                "num": 6,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Facundo Herrera",
+                    "short_name": "Herrera",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.5"
+                  }
+                ]
+              },
+              {
+                "num": 7,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Blanco",
+                    "short_name": "Blanco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 8,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Santiago Ascacibar",
+                    "short_name": "Ascacibar",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 9,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Alan Velasco",
+                    "short_name": "Alan Velasco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 10,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Sebastián Villa",
+                    "short_name": "Villa",
+                    "country_id": "baj",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 11,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Adam Bareiro",
+                    "short_name": "Bareiro",
+                    "country_id": "bai",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 12,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Williams Alarcón",
+                    "short_name": "Alarcón",
+                    "country_id": "ci",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 13,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Exequiel Zeballos",
+                    "short_name": "Zeballos",
+                    "country_id": "ba",
+                    "team_id": "cjd"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 14,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Kevin Zenon",
+                    "short_name": "Zenon",
+                    "country_id": "ba",
+                    "team_id": "bcfi"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 15,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Nicolás Figal",
+                    "short_name": "Figal",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.4"
+                  }
+                ]
+              },
+              {
+                "num": 16,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Belmonte",
+                    "short_name": "Tomás Belmonte",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.3"
+                  }
+                ]
+              },
+              {
+                "num": 17,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leandro Lozano",
+                    "short_name": "Lozano",
+                    "country_id": "bbb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.3"
+                  }
+                ]
+              },
+              {
+                "num": 18,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Milton Giménez",
+                    "short_name": "Giménez",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.3"
+                  }
+                ]
+              },
+              {
+                "num": 19,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Camilo Rey Domenech",
+                    "short_name": "Rey",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.3"
+                  }
+                ]
+              },
+              {
+                "num": 20,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Milton Delgado",
+                    "short_name": "Delgado",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 21,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Miguel Merentiel",
+                    "short_name": "Merentiel",
+                    "country_id": "bbb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 22,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Di Lollo",
+                    "short_name": "Di Lollo",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 23,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leandro Paredes",
+                    "short_name": "Paredes",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 24,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Aranda",
+                    "short_name": "Aranda",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 25,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Ayrton Costa",
+                    "short_name": "Costa",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 26,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leonel Flores",
+                    "short_name": "Flores",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 27,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Marcelo Weigandt",
+                    "short_name": "Weigandt",
+                    "country_id": "ba",
+                    "team_id": "bcic"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 28,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Enner Valencia",
+                    "short_name": "Valencia",
+                    "country_id": "fb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.2"
+                  }
+                ]
+              },
+              {
+                "num": 29,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Angel Romero",
+                    "short_name": "Romero",
+                    "country_id": "bai",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.1"
+                  }
+                ]
+              },
+              {
+                "num": 30,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Iker Zufiaurre",
+                    "short_name": "Zufiaurre",
+                    "country_id": "ba",
+                    "team_id": "fbfcc"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.1"
+                  }
+                ]
+              },
+              {
+                "num": 31,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Malcom Braida",
+                    "short_name": "Braida",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "TotalFoulsConceded",
+                    "value": "0.1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tarjetas Amarillas",
+            "columns": [
+              {
+                "key": "YellowCards",
+                "title": "Tarjetas Amarillas",
+                "type": 1,
+                "is_bold": true
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leandro Paredes",
+                    "short_name": "Paredes",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "11"
+                  }
+                ]
+              },
+              {
+                "num": 2,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Milton Delgado",
+                    "short_name": "Delgado",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "7"
+                  }
+                ]
+              },
+              {
+                "num": 3,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Ayrton Costa",
+                    "short_name": "Costa",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "6"
+                  }
+                ]
+              },
+              {
+                "num": 4,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Di Lollo",
+                    "short_name": "Di Lollo",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "6"
+                  }
+                ]
+              },
+              {
+                "num": 5,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Santiago Ascacibar",
+                    "short_name": "Ascacibar",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "5"
+                  }
+                ]
+              },
+              {
+                "num": 6,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Adam Bareiro",
+                    "short_name": "Bareiro",
+                    "country_id": "bai",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "4"
+                  }
+                ]
+              },
+              {
+                "num": 7,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Facundo Herrera",
+                    "short_name": "Herrera",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "4"
+                  }
+                ]
+              },
+              {
+                "num": 8,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Belmonte",
+                    "short_name": "Tomás Belmonte",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "4"
+                  }
+                ]
+              },
+              {
+                "num": 9,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lautaro Blanco",
+                    "short_name": "Blanco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "num": 10,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Alan Velasco",
+                    "short_name": "Alan Velasco",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 11,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leonel Flores",
+                    "short_name": "Flores",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 12,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Malcom Braida",
+                    "short_name": "Braida",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 13,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Tomás Aranda",
+                    "short_name": "Aranda",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 14,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Williams Alarcón",
+                    "short_name": "Alarcón",
+                    "country_id": "ci",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "num": 15,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Ander Herrera",
+                    "short_name": "Herrera",
+                    "country_id": "c",
+                    "team_id": "bef"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 16,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Carlos Palacios",
+                    "short_name": "Palacios",
+                    "country_id": "ci",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 17,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Dylan Gorosito",
+                    "short_name": "Gorosito",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 18,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Enner Valencia",
+                    "short_name": "Valencia",
+                    "country_id": "fb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 19,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Iker Zufiaurre",
+                    "short_name": "Zufiaurre",
+                    "country_id": "ba",
+                    "team_id": "fbfcc"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 20,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Juan Barinaga",
+                    "short_name": "Barinaga",
+                    "country_id": "ba",
+                    "team_id": "ihg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 21,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Kevin Zenon",
+                    "short_name": "Zenon",
+                    "country_id": "ba",
+                    "team_id": "bcfi"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 22,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Leandro Lozano",
+                    "short_name": "Lozano",
+                    "country_id": "bbb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 23,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Lucas Janson",
+                    "short_name": "Janson",
+                    "country_id": "ba",
+                    "team_id": "iia"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 24,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Marcelo Weigandt",
+                    "short_name": "Weigandt",
+                    "country_id": "ba",
+                    "team_id": "bcic"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 25,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Marco Pellegrino",
+                    "short_name": "Pellegrino",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 26,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Miguel Merentiel",
+                    "short_name": "Merentiel",
+                    "country_id": "bbb",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 27,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Milton Giménez",
+                    "short_name": "Giménez",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "num": 28,
+                "entity": {
+                  "type": 4,
+                  "object": {
+                    "name": "Nicolás Figal",
+                    "short_name": "Figal",
+                    "country_id": "ba",
+                    "team_id": "igg"
+                  }
+                },
+                "values": [
+                  {
+                    "key": "YellowCards",
+                    "value": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Liga Profesional Argentina - Apertura",
+        "key": "72_228_1"
+      },
+      {
+        "name": "CONMEBOL Copa Libertadores",
+        "key": "102_69_-1"
+      },
+      {
+        "name": "Mundial de Clubes - 2025 Estados Unidos",
+        "key": "5096_26_-1"
+      },
+      {
+        "name": "CONMEBOL Copa Sudamericana",
+        "key": "389_25_-1"
+      },
+      {
+        "name": "Copa Argentina",
+        "key": "640_16_-1"
+      }
+    ]
+  },
+  "team_info": [
+    {
+      "name": "Apodo",
+      "value": "Xeneizes"
+    },
+    {
+      "name": "Fundación",
+      "value": "1905"
+    },
+    {
+      "name": "Estadio",
+      "value": "Estadio Alberto José Armando"
+    },
+    {
+      "name": "Club de",
+      "value": "Ciudad de Buenos Aires"
+    }
+  ],
+  "stadium": {
+    "coordinates": "-34.635582546,-58.364637494",
+    "name": "Estadio Alberto José Armando",
+    "info": [
+      {
+        "name": "Nombre",
+        "value": "Estadio Alberto José Armando"
+      },
+      {
+        "name": "Capacidad",
+        "value": "54,000"
+      },
+      {
+        "name": "Fundación",
+        "value": "1940"
+      },
+      {
+        "name": "Ciudad",
+        "value": "Ciudad de Buenos Aires"
+      },
+      {
+        "name": "Dirección",
+        "value": "Brandsen 805, La Boca"
+      }
+    ]
+  }
+}
