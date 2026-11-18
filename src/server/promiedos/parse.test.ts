@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import finished from './__fixtures__/game-finished.json' with { type: 'json' };
 import penalties from './__fixtures__/game-penalties.json' with { type: 'json' };
 import extraTime from './__fixtures__/game-extra-time.json' with { type: 'json' };
+import live from './__fixtures__/game-live.json' with { type: 'json' };
 import team from './__fixtures__/team.json' with { type: 'json' };
 import { parseGame, parseTeamPage } from './parse.js';
 
@@ -38,6 +39,15 @@ describe('parseGame', () => {
     expect(m.goals.map((g) => `${g.side} ${g.minute} ${g.player}`)).toEqual([
       "away 5' Leonardo Gil", "home 87' Milton Giménez", "away 94' Oscar Romero",
       "away 103' Oscar Romero", "home 116' Angel Romero",
+    ]);
+  });
+
+  it('live match of any team (captured in extra time, Copa del Rey)', () => {
+    const m = parseGame(live, live.teams[0].id);
+    expect(m).toMatchObject({ status: 'live', statusText: 'Suplementario', minute: "98'", score: { home: 1, away: 1 } });
+    expect(m.goals).toEqual([
+      { side: 'home', minute: "65'", player: 'A. Camara' },
+      { side: 'away', minute: "73'", player: 'Urko Collado' },
     ]);
   });
 
