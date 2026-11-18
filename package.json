@@ -12,7 +12,8 @@
     "capture": "tsx scripts/capture-fixture.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "sync": "node --env-file=.env --import tsx scripts/sync.ts"
+    "sync": "node --env-file=.env --import tsx scripts/sync.ts",
+    "seed": "node --env-file=.env --import tsx scripts/seed-season.ts"
   },
   "dependencies": {
     "drizzle-orm": "^0.45.4",
