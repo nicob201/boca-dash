@@ -43,7 +43,12 @@ const GameSchema = z.object({
   teams: z.tuple([TeamSchema, TeamSchema]),
   players: z.object({ lineups: z.object({ teams: z.array(LineupTeam) }).nullish() }).nullish(),
   events: z.array(Stage).nullish(),
-});
+}).refine(
+  // Optional fields pass silently when renamed: without this, a live game whose
+  // `scores` went missing would read as 0-0 and the tick would announce false annulments.
+  (g) => g.scores != null || !['live', 'finished'].includes(toStatus(g.status.enum)),
+  { error: 'live/finished game without scores' },
+);
 const GameRef = z.object({ id: z.string(), url_name: z.string(), start_time: z.string(), status: Status });
 const TeamPage = z.object({
   games: z.object({

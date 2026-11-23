@@ -60,6 +60,17 @@ describe('parseGame', () => {
     expect(() => parseGame(broken)).toThrow();
   });
 
+  it('rejects a live or finished match without scores, so a renamed field never reads as 0-0', () => {
+    const { scores: _scores, ...noScores } = finished;
+    expect(() => parseGame(noScores)).toThrow(/without scores/);
+    expect(() => parseGame({ ...noScores, status: { ...finished.status, enum: 2 } })).toThrow(/without scores/);
+  });
+
+  it('a scheduled match without scores is still fine', () => {
+    const { scores: _scores, ...noScores } = finished;
+    expect(parseGame({ ...noScores, status: { ...finished.status, enum: 1 } }).score).toBeNull();
+  });
+
   it('rejects a match the followed team does not play', () => {
     expect(() => parseGame(finished, 'zzz')).toThrow();
   });
