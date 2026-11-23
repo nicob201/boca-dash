@@ -13,7 +13,9 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "sync": "node --env-file=.env --import tsx scripts/sync.ts",
-    "seed": "node --env-file=.env --import tsx scripts/seed-season.ts"
+    "seed": "node --env-file=.env --import tsx scripts/seed-season.ts",
+    "webhook:set": "node --env-file=.env --import tsx scripts/set-webhook.ts",
+    "broadcast": "node --env-file=.env --import tsx scripts/broadcast.ts"
   },
   "dependencies": {
     "drizzle-orm": "^0.45.4",
