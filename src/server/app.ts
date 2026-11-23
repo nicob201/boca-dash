@@ -1,6 +1,7 @@
 import express from 'express';
 import { env } from './env.js';
 import { safeEqual } from './secure.js';
+import { runTick } from './tick.js';
 import { handleUpdate } from './webhook.js';
 
 export const app = express();
@@ -19,4 +20,14 @@ app.post('/api/telegram/webhook', async (req, res) => {
   }
   await handleUpdate(req.body);
   res.sendStatus(200);
+});
+
+// cron-job.org calls this every minute. Always 200 with the report (errors included):
+// a job that keeps failing gets disabled by cron-job.org.
+app.post('/api/cron/tick', async (req, res) => {
+  if (!safeEqual(req.get('authorization') ?? '', `Bearer ${env('CRON_SECRET')}`)) {
+    res.sendStatus(401);
+    return;
+  }
+  res.json(await runTick());
 });

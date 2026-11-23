@@ -15,7 +15,8 @@
     "sync": "node --env-file=.env --import tsx scripts/sync.ts",
     "seed": "node --env-file=.env --import tsx scripts/seed-season.ts",
     "webhook:set": "node --env-file=.env --import tsx scripts/set-webhook.ts",
-    "broadcast": "node --env-file=.env --import tsx scripts/broadcast.ts"
+    "broadcast": "node --env-file=.env --import tsx scripts/broadcast.ts",
+    "follow": "tsx scripts/follow.ts"
   },
   "dependencies": {
     "drizzle-orm": "^0.45.4",
