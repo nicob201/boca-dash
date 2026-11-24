@@ -17,7 +17,11 @@ export function shouldPoll(c: Pick<StoredMatch, 'status' | 'startsAt' | 'syncedA
   return t >= start || t - c.syncedAt.getTime() >= 5 * MIN;
 }
 
-/** Called by cron-job.org every minute. Never throws: errors go to the report and to the admin. */
+/**
+ * Called by cron-job.org every minute. Errors go to the report and to the admin, except one:
+ * if the database is unreachable it throws, so the route answers 500 and cron-job.org emails.
+ * alertAdmin needs the database, so that email is the only alert left.
+ */
 export async function runTick(now = new Date()): Promise<TickReport> {
   const report: TickReport = { polled: [], sent: [], synced: [], errors: [] };
   const fail = async (where: string, err: unknown) => {
@@ -27,8 +31,9 @@ export async function runTick(now = new Date()): Promise<TickReport> {
     try { await alertAdmin(message, now); } catch (e) { console.error('alertAdmin failed', e); }
   };
 
+  // Outside the try on purpose: the first query is the database health check.
+  const candidates = await getMatchesStartingBetween(new Date(now.getTime() - 4 * HOUR), new Date(now.getTime() + 24 * HOUR));
   try {
-    const candidates = await getMatchesStartingBetween(new Date(now.getTime() - 4 * HOUR), new Date(now.getTime() + 24 * HOUR));
     for (const c of candidates) {
       try {   // one broken match doesn't stop the others
         let snapshot: MatchSnapshot;
@@ -41,8 +46,9 @@ export async function runTick(now = new Date()): Promise<TickReport> {
         // At-most-once: whoever claims the key sends; a crash after the claim loses that notice, never repeats it.
         for (const n of decideNotifications(snapshot, await getSentKeys(c.id), now)) {
           if (await claimNotification(c.id, n.key)) {
-            await broadcast(n.text);
+            const r = await broadcast(n.text);
             report.sent.push(`${c.id}:${n.key}`);
+            if (r.failed > 0) await fail(`match ${c.id} ${n.key}`, `${r.failed} of ${r.ok + r.blocked + r.failed} sends failed`);
           }
         }
         if (c.status !== 'finished' && snapshot.status === 'finished') await setKv('sync:due', true);

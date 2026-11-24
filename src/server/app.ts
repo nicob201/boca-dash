@@ -22,8 +22,9 @@ app.post('/api/telegram/webhook', async (req, res) => {
   res.sendStatus(200);
 });
 
-// cron-job.org calls this every minute. Always 200 with the report (errors included):
-// a job that keeps failing gets disabled by cron-job.org.
+// cron-job.org calls this every minute. 200 with the report, errors included: a job that keeps
+// failing gets disabled by cron-job.org. Only a dead database throws (Express 5 answers 500),
+// because then cron-job.org's email is the only alert that can still reach us.
 app.post('/api/cron/tick', async (req, res) => {
   if (!safeEqual(req.get('authorization') ?? '', `Bearer ${env('CRON_SECRET')}`)) {
     res.sendStatus(401);
