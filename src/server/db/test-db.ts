@@ -15,7 +15,7 @@ export async function createTestDb(): Promise<PgliteDatabase> {
 
 export interface TestMatch {
   id: string; competition: string; round?: string | null; startsAt: string; ourSide?: Side;
-  status: MatchStatus; home?: number; away?: number; homePen?: number; awayPen?: number; events?: unknown[];
+  status: MatchStatus; home?: number; away?: number; homePen?: number; awayPen?: number; events?: unknown[] | null;
 }
 
 const LEAGUES: Record<string, { id: string; url_name: string }> = {
@@ -35,7 +35,7 @@ export async function insertMatch(db: PgDatabase<any, any>, m: TestMatch): Promi
   const raw = {
     league: { name: m.competition, ...(LEAGUES[m.competition] ?? { id: 'x', url_name: 'x' }) },
     teams: ourSide === 'home' ? [boca, rival] : [rival, boca],
-    events: m.events ?? [],
+    events: m.events === undefined ? [] : m.events,   // null on purpose: zod lets promiedos send `events: null`
   };
   await db.insert(matches).values({
     id: m.id, slug: m.id, competition: m.competition, round: m.round ?? null, startsAt: new Date(m.startsAt),
