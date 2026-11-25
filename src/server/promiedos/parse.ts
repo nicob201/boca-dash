@@ -110,3 +110,62 @@ export function parseTeamPage(data: unknown): { next: TeamGameRef[]; last: TeamG
   });
   return { next: games.next.rows.map(toRef), last: games.last.rows.map(toRef) };
 }
+
+export interface SquadPlayer { name: string; number: string | null; age: number | null; height: string | null }
+export interface SquadGroup { name: string; players: SquadPlayer[] }
+export interface StandingsRow { pos: number; team: Team; values: Record<string, string> }
+export interface StandingsTable { tournament: string; name: string; columns: { key: string; title: string }[]; rows: StandingsRow[] }
+
+const Squad = z.object({
+  squad: z.object({
+    groups: z.array(z.object({
+      name: z.string(),
+      rows: z.array(z.object({
+        entity: z.object({ object: z.object({ name: z.string(), num: z.string().nullish(), age: z.string().nullish(), height: z.string().nullish() }) }),
+      })),
+    })),
+  }),
+});
+
+/** `data` = pageProps.data of /team/<slug>/<id>. Groups as promiedos sends them ("Dirección", "Arqueros", …). */
+export function parseSquad(data: unknown): SquadGroup[] {
+  return Squad.parse(data).squad.groups.map((g) => ({
+    name: g.name,
+    players: g.rows.map(({ entity: { object: p } }) => ({
+      name: p.name, number: p.num || null, age: p.age ? Number(p.age) : null, height: p.height || null,
+    })),
+  }));
+}
+
+const League = z.object({
+  league: z.object({ name: z.string() }),
+  tables_groups: z.array(z.object({
+    name: z.string(),
+    tables: z.array(z.object({
+      name: z.string(),
+      table: z.object({
+        columns: z.array(z.object({ key: z.string(), title: z.string() })),
+        rows: z.array(z.object({
+          num: z.number(),
+          entity: z.object({ object: TeamSchema }),
+          values: z.array(z.object({ key: z.string(), value: z.string() })),
+        })),
+      }),
+    })),
+  })).nullish(),   // knockout cups (Copa Argentina) have no tables
+});
+
+/** `data` = pageProps.data of /league/<slug>/<id>. Only the tables where `teamId` plays. */
+export function parseStandings(data: unknown, teamId: string = BOCA_ID): StandingsTable[] {
+  const { league, tables_groups } = League.parse(data);
+  return (tables_groups ?? []).flatMap((g) => g.tables
+    .filter((t) => t.table.rows.some((r) => r.entity.object.id === teamId))
+    .map((t) => ({
+      tournament: g.name || league.name,          // "Promedios" and "Tabla Anual" come in unnamed groups
+      name: t.name.split(' - ')[0],                // "Tabla Anual - Tabla Anual" → "Tabla Anual"
+      columns: t.table.columns.map(({ key, title }) => ({ key, title })),
+      rows: t.table.rows.map((r) => ({
+        pos: r.num, team: toTeam(r.entity.object), values: Object.fromEntries(r.values.map((v) => [v.key, v.value])),
+      })),
+    })));
+}

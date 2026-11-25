@@ -1,0 +1,6063 @@
+{
+  "league": {
+    "name": "Liga Profesional Argentina",
+    "id": "hc",
+    "url_name": "liga-profesional",
+    "country_id": "ba",
+    "show_country_flags": false,
+    "allow_open": true,
+    "country_name": "Argentina",
+    "is_international": false
+  },
+  "tables_groups": [
+    {
+      "name": "Clausura",
+      "tables": [
+        {
+          "name": "Grupo A",
+          "table": {
+            "is_live": false,
+            "destinations": [
+              {
+                "num": 1,
+                "color": "#03A9F4",
+                "name": "Octavos de Final"
+              }
+            ],
+            "columns": [
+              {
+                "key": "Points",
+                "title": "PTS",
+                "type": 1,
+                "is_bold": true
+              },
+              {
+                "key": "GamePlayed",
+                "title": "J",
+                "type": 1
+              },
+              {
+                "key": "Goals",
+                "title": "Gol",
+                "type": 1
+              },
+              {
+                "key": "Ratio",
+                "title": "+/-",
+                "type": 1
+              },
+              {
+                "key": "GamesWon",
+                "title": "G",
+                "type": 1
+              },
+              {
+                "key": "GamesEven",
+                "title": "E",
+                "type": 1
+              },
+              {
+                "key": "GamesLost",
+                "title": "P",
+                "type": 1
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "26:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "11"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "34"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "10"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "2"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Instituto",
+                    "short_name": "Instituto",
+                    "url_name": "instituto-ac-cordoba",
+                    "id": "hchc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 2,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "24:14"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "10"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "33"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "1"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Boca Juniors",
+                    "short_name": "Boca Jrs.",
+                    "url_name": "boca-juniors",
+                    "id": "igg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#2D2E58",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 3,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "25:17"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "8"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "28"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "2"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Vélez Sarsfield",
+                    "short_name": "Vélez",
+                    "url_name": "velez-sarsfield",
+                    "id": "ihc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 4,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "21:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "6"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "28"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Defensa y Justicia",
+                    "short_name": "Defensa",
+                    "url_name": "defensa-y-justicia",
+                    "id": "hcbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFF00",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 5,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "19:12"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "26"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Lanús",
+                    "short_name": "Lanús",
+                    "url_name": "lanus",
+                    "id": "igj",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#753E4A",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 6,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "16:13"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "23"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "3"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Newell's Old Boys",
+                    "short_name": "Newell's",
+                    "url_name": "newell's-old-boys",
+                    "id": "ihh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FD0808",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 7,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "15:16"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-1"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "23"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente",
+                    "short_name": "Independiente",
+                    "url_name": "independiente",
+                    "id": "ihe",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 8,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "18:17"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "1"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "22"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima",
+                    "short_name": "Gimnasia y Esgrima",
+                    "url_name": "gimnasia-mendoza",
+                    "id": "bbjbf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 9,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "24:24"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "0"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "21"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Unión",
+                    "short_name": "Unión",
+                    "url_name": "union-santa-fe",
+                    "id": "hcag",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#E93F2D",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 10,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "18:20"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-2"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "20"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Platense",
+                    "short_name": "Platense",
+                    "url_name": "platense",
+                    "id": "hcah",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 11,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "9:16"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "19"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "San Lorenzo",
+                    "short_name": "San Lorenzo",
+                    "url_name": "san-lorenzo",
+                    "id": "igf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#293592",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 12,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "21:22"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-1"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "16"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "8"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes de La Plata",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-de-la-plata",
+                    "id": "igh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FAFAFA",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 13,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:23"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-6"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "13"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Talleres",
+                    "short_name": "Talleres",
+                    "url_name": "talleres-cordoba",
+                    "id": "jche",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 14,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "11:19"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-8"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "8"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Deportivo Riestra",
+                    "short_name": "Riestra",
+                    "url_name": "riestra",
+                    "id": "bbjea",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#28272C",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 15,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "12:26"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-14"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Central Córdoba",
+                    "short_name": "Central Córdoba",
+                    "url_name": "central-cordoba-sde",
+                    "id": "beafh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#000000",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Grupo B",
+          "table": {
+            "is_live": false,
+            "destinations": [
+              {
+                "num": 1,
+                "color": "#03A9F4",
+                "name": "Octavos de Final"
+              }
+            ],
+            "columns": [
+              {
+                "key": "Points",
+                "title": "PTS",
+                "type": 1,
+                "is_bold": true
+              },
+              {
+                "key": "GamePlayed",
+                "title": "J",
+                "type": 1
+              },
+              {
+                "key": "Goals",
+                "title": "Gol",
+                "type": 1
+              },
+              {
+                "key": "Ratio",
+                "title": "+/-",
+                "type": 1
+              },
+              {
+                "key": "GamesWon",
+                "title": "G",
+                "type": 1
+              },
+              {
+                "key": "GamesEven",
+                "title": "E",
+                "type": 1
+              },
+              {
+                "key": "GamesLost",
+                "title": "P",
+                "type": 1
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "26:12"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "14"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "34"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "10"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "2"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Rosario Central",
+                    "short_name": "Central",
+                    "url_name": "rosario-central",
+                    "id": "ihf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#004080",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 2,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "20:14"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "6"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "31"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "3"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Argentinos Juniors",
+                    "short_name": "Argentinos",
+                    "url_name": "argentinos-juniors",
+                    "id": "ihb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#DD2D2F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 3,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "25:20"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "5"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "31"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "3"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima La Plata",
+                    "short_name": "Gimnasia y Esgrima La Plata",
+                    "url_name": "gimnasia-la-plata",
+                    "id": "iia",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 4,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "21:14"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "26"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "River Plate",
+                    "short_name": "River",
+                    "url_name": "river-plate",
+                    "id": "igi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 5,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:13"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "26"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Barracas Central",
+                    "short_name": "Barracas",
+                    "url_name": "barracas-central",
+                    "id": "jafb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 6,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "2"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "23"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Belgrano",
+                    "short_name": "Belgrano",
+                    "url_name": "belgrano",
+                    "id": "fhid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#358FC8",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 7,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "21:24"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "23"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente Rivadavia",
+                    "short_name": "Independiente Rivadavia",
+                    "url_name": "independiente-rivadavia",
+                    "id": "hcch",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#14163F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 8,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "14:16"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-2"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "22"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Huracán",
+                    "short_name": "Huracán",
+                    "url_name": "huracan",
+                    "id": "iie",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 9,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "23:24"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-1"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "21"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Sarmiento",
+                    "short_name": "Sarmiento",
+                    "url_name": "sarmiento-junin",
+                    "id": "hbbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#4AA575",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 10,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "16:16"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "0"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "19"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Tigre",
+                    "short_name": "Tigre",
+                    "url_name": "tigre",
+                    "id": "iid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#263142",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 11,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "16:17"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-1"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "18"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Atlético Tucumán",
+                    "short_name": "Atl. Tucumán",
+                    "url_name": "atletico-tucuman",
+                    "id": "gbfc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 12,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "18:25"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "15"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Banfield",
+                    "short_name": "Banfield",
+                    "url_name": "banfield",
+                    "id": "ihi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 13,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "16:24"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-8"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "15"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Racing Club",
+                    "short_name": "Racing",
+                    "url_name": "racing-club",
+                    "id": "ihg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 14,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "16:26"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-10"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "11"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Aldosivi",
+                    "short_name": "Aldosivi",
+                    "url_name": "aldosivi",
+                    "id": "hccd",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#133632",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 15,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "10:23"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-13"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "11"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-rio-cuarto",
+                    "id": "bheaf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#77B8F2",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apertura",
+      "tables": [
+        {
+          "name": "Zona A",
+          "table": {
+            "is_live": false,
+            "destinations": [
+              {
+                "num": 1,
+                "color": "#03A9F4",
+                "name": "Octavos de Final"
+              }
+            ],
+            "columns": [
+              {
+                "key": "Points",
+                "title": "PTS",
+                "type": 1,
+                "is_bold": true
+              },
+              {
+                "key": "GamePlayed",
+                "title": "J",
+                "type": 1
+              },
+              {
+                "key": "Goals",
+                "title": "Gol",
+                "type": 1
+              },
+              {
+                "key": "Ratio",
+                "title": "+/-",
+                "type": 1
+              },
+              {
+                "key": "GamesWon",
+                "title": "G",
+                "type": 1
+              },
+              {
+                "key": "GamesEven",
+                "title": "E",
+                "type": 1
+              },
+              {
+                "key": "GamesLost",
+                "title": "P",
+                "type": 1
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "19:7"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "12"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "31"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "3"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes de La Plata",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-de-la-plata",
+                    "id": "igh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FAFAFA",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 2,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "22:9"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "13"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "30"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "2"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Boca Juniors",
+                    "short_name": "Boca Jrs.",
+                    "url_name": "boca-juniors",
+                    "id": "igg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#2D2E58",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 3,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "18:12"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "6"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "28"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "2"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Vélez Sarsfield",
+                    "short_name": "Vélez",
+                    "url_name": "velez-sarsfield",
+                    "id": "ihc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 4,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:13"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "26"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Talleres",
+                    "short_name": "Talleres",
+                    "url_name": "talleres-cordoba",
+                    "id": "jche",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 5,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "24:20"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "24"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente",
+                    "short_name": "Independiente",
+                    "url_name": "independiente",
+                    "id": "ihe",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 6,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "18:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "24"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Lanús",
+                    "short_name": "Lanús",
+                    "url_name": "lanus",
+                    "id": "igj",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#753E4A",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 7,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "14:14"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "0"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "22"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "San Lorenzo",
+                    "short_name": "San Lorenzo",
+                    "url_name": "san-lorenzo",
+                    "id": "igf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#293592",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 8,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "24:20"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "21"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Unión",
+                    "short_name": "Unión",
+                    "url_name": "union-santa-fe",
+                    "id": "hcag",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#E93F2D",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 9,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:17"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "0"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "21"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Instituto",
+                    "short_name": "Instituto",
+                    "url_name": "instituto-ac-cordoba",
+                    "id": "hchc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 10,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "18:21"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "19"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Defensa y Justicia",
+                    "short_name": "Defensa",
+                    "url_name": "defensa-y-justicia",
+                    "id": "hcbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFF00",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 11,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "14:22"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-8"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "19"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima",
+                    "short_name": "Gimnasia y Esgrima",
+                    "url_name": "gimnasia-mendoza",
+                    "id": "bbjbf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 12,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "10:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-5"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "16"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Platense",
+                    "short_name": "Platense",
+                    "url_name": "platense",
+                    "id": "hcah",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 13,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "11:21"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-10"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "16"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "8"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Central Córdoba",
+                    "short_name": "Central Córdoba",
+                    "url_name": "central-cordoba-sde",
+                    "id": "beafh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#000000",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 14,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "15:27"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-12"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "15"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Newell's Old Boys",
+                    "short_name": "Newell's",
+                    "url_name": "newell's-old-boys",
+                    "id": "ihh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FD0808",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 15,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "5:12"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "1"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Deportivo Riestra",
+                    "short_name": "Riestra",
+                    "url_name": "riestra",
+                    "id": "bbjea",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#28272C",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Zona B",
+          "table": {
+            "is_live": false,
+            "destinations": [
+              {
+                "num": 1,
+                "color": "#03A9F4",
+                "name": "Octavos de Final"
+              }
+            ],
+            "columns": [
+              {
+                "key": "Points",
+                "title": "PTS",
+                "type": 1,
+                "is_bold": true
+              },
+              {
+                "key": "GamePlayed",
+                "title": "J",
+                "type": 1
+              },
+              {
+                "key": "Goals",
+                "title": "Gol",
+                "type": 1
+              },
+              {
+                "key": "Ratio",
+                "title": "+/-",
+                "type": 1
+              },
+              {
+                "key": "GamesWon",
+                "title": "G",
+                "type": 1
+              },
+              {
+                "key": "GamesEven",
+                "title": "E",
+                "type": 1
+              },
+              {
+                "key": "GamesLost",
+                "title": "P",
+                "type": 1
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "29:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "14"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "34"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "10"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "2"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente Rivadavia",
+                    "short_name": "Independiente Rivadavia",
+                    "url_name": "independiente-rivadavia",
+                    "id": "hcch",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#14163F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 2,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "22:12"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "10"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "29"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "River Plate",
+                    "short_name": "River",
+                    "url_name": "river-plate",
+                    "id": "igi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 3,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:13"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "29"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "3"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Argentinos Juniors",
+                    "short_name": "Argentinos",
+                    "url_name": "argentinos-juniors",
+                    "id": "ihb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#DD2D2F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 4,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "20:16"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "28"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Rosario Central",
+                    "short_name": "Central",
+                    "url_name": "rosario-central",
+                    "id": "ihf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#004080",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 5,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:13"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "26"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Belgrano",
+                    "short_name": "Belgrano",
+                    "url_name": "belgrano",
+                    "id": "fhid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#358FC8",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 6,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "19:19"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "0"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "26"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima La Plata",
+                    "short_name": "Gimnasia y Esgrima La Plata",
+                    "url_name": "gimnasia-la-plata",
+                    "id": "iia",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 7,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:13"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "22"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Huracán",
+                    "short_name": "Huracán",
+                    "url_name": "huracan",
+                    "id": "iie",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 8,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "2"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "21"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Racing Club",
+                    "short_name": "Racing",
+                    "url_name": "racing-club",
+                    "id": "ihg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#03A9F4"
+              },
+              {
+                "num": 9,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "15:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "0"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "21"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "5"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Barracas Central",
+                    "short_name": "Barracas",
+                    "url_name": "barracas-central",
+                    "id": "jafb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 10,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "18:15"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "20"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Tigre",
+                    "short_name": "Tigre",
+                    "url_name": "tigre",
+                    "id": "iid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#263142",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 11,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "13:20"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "19"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "1"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Sarmiento",
+                    "short_name": "Sarmiento",
+                    "url_name": "sarmiento-junin",
+                    "id": "hbbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#4AA575",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 12,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "17:19"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-2"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "18"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "8"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Banfield",
+                    "short_name": "Banfield",
+                    "url_name": "banfield",
+                    "id": "ihi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 13,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "15:20"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-5"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "14"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "8"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Atlético Tucumán",
+                    "short_name": "Atl. Tucumán",
+                    "url_name": "atletico-tucuman",
+                    "id": "gbfc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 14,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "6:19"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-13"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "0"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "8"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Aldosivi",
+                    "short_name": "Aldosivi",
+                    "url_name": "aldosivi",
+                    "id": "hccd",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#133632",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 15,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "16"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "5:24"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-19"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "1"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "2"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "13"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-rio-cuarto",
+                    "id": "bheaf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#77B8F2",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "tables": [
+        {
+          "name": "Promedios - Relegation",
+          "table": {
+            "is_live": false,
+            "destinations": [
+              {
+                "num": 1,
+                "color": "#E61034",
+                "name": "Descenso"
+              }
+            ],
+            "columns": [
+              {
+                "key": "Pct",
+                "title": "Prom",
+                "type": 1,
+                "is_bold": true
+              },
+              {
+                "key": "Points",
+                "title": "Pts",
+                "type": 1
+              },
+              {
+                "key": "GamePlayed",
+                "title": "PJ",
+                "type": 1
+              },
+              {
+                "key": "GamesWon",
+                "title": "24",
+                "type": 1
+              },
+              {
+                "key": "GamesEven",
+                "title": "25",
+                "type": 1
+              },
+              {
+                "key": "GamesLost",
+                "title": "26",
+                "type": 1
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "192"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.829"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "67"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "62"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "63"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Boca Juniors",
+                    "short_name": "Boca Jrs.",
+                    "url_name": "boca-juniors",
+                    "id": "igg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#2D2E58",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 2,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "178"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.695"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "70"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "53"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "55"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "River Plate",
+                    "short_name": "River",
+                    "url_name": "river-plate",
+                    "id": "igi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 3,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "175"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.667"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "47"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "66"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "62"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Rosario Central",
+                    "short_name": "Central",
+                    "url_name": "rosario-central",
+                    "id": "ihf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#004080",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 4,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "173"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.648"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "56"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "57"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "60"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Argentinos Juniors",
+                    "short_name": "Argentinos",
+                    "url_name": "argentinos-juniors",
+                    "id": "ihb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#DD2D2F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 5,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "172"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.638"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "76"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "40"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "56"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Vélez Sarsfield",
+                    "short_name": "Vélez",
+                    "url_name": "velez-sarsfield",
+                    "id": "ihc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 6,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "159"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.514"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "59"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "50"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "50"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Lanús",
+                    "short_name": "Lanús",
+                    "url_name": "lanus",
+                    "id": "igj",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#753E4A",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 7,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "159"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.514"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "70"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "53"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "36"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Racing Club",
+                    "short_name": "Racing",
+                    "url_name": "racing-club",
+                    "id": "ihg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 8,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "157"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.495"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "63"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "47"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "47"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente",
+                    "short_name": "Independiente",
+                    "url_name": "independiente",
+                    "id": "ihe",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 9,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "153"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.457"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "62"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "47"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "44"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Huracán",
+                    "short_name": "Huracán",
+                    "url_name": "huracan",
+                    "id": "iie",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 10,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "152"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.448"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "63"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "42"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "47"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes de La Plata",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-de-la-plata",
+                    "id": "igh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FAFAFA",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 11,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "146"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.390"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "46"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "43"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "57"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente Rivadavia",
+                    "short_name": "Independiente Rivadavia",
+                    "url_name": "independiente-rivadavia",
+                    "id": "hcch",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#14163F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 12,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "145"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.381"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "49"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "49"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "47"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Barracas Central",
+                    "short_name": "Barracas",
+                    "url_name": "barracas-central",
+                    "id": "jafb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 13,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "145"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.381"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "72"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "34"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "39"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Talleres",
+                    "short_name": "Talleres",
+                    "url_name": "talleres-cordoba",
+                    "id": "jche",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 14,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "143"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.362"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "48"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "38"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "57"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima La Plata",
+                    "short_name": "Gimnasia y Esgrima La Plata",
+                    "url_name": "gimnasia-la-plata",
+                    "id": "iia",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 15,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "143"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.362"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "58"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "38"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "47"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Defensa y Justicia",
+                    "short_name": "Defensa",
+                    "url_name": "defensa-y-justicia",
+                    "id": "hcbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFF00",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 16,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "142"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.352"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "53"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "34"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "55"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Instituto",
+                    "short_name": "Instituto",
+                    "url_name": "instituto-ac-cordoba",
+                    "id": "hchc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 17,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "141"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.343"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "60"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "39"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "42"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Unión",
+                    "short_name": "Unión",
+                    "url_name": "union-santa-fe",
+                    "id": "hcag",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#E93F2D",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 18,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "137"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.305"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "45"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "51"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "41"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "San Lorenzo",
+                    "short_name": "San Lorenzo",
+                    "url_name": "san-lorenzo",
+                    "id": "igf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#293592",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 19,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "135"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.286"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "49"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "37"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "49"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Belgrano",
+                    "short_name": "Belgrano",
+                    "url_name": "belgrano",
+                    "id": "fhid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#358FC8",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 20,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "41"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.281"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "0"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "0"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "41"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima",
+                    "short_name": "Gimnasia y Esgrima",
+                    "url_name": "gimnasia-mendoza",
+                    "id": "bbjbf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 21,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "128"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.219"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "57"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "35"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "36"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Platense",
+                    "short_name": "Platense",
+                    "url_name": "platense",
+                    "id": "hcah",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 22,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "127"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.210"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "39"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "49"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "39"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Tigre",
+                    "short_name": "Tigre",
+                    "url_name": "tigre",
+                    "id": "iid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#263142",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 23,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "123"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.171"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "48"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "52"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "23"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Deportivo Riestra",
+                    "short_name": "Riestra",
+                    "url_name": "riestra",
+                    "id": "bbjea",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#28272C",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 24,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "120"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.143"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "49"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "33"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "38"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Newell's Old Boys",
+                    "short_name": "Newell's",
+                    "url_name": "newell's-old-boys",
+                    "id": "ihh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FD0808",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 25,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "116"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.105"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "50"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "34"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "32"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Atlético Tucumán",
+                    "short_name": "Atl. Tucumán",
+                    "url_name": "atletico-tucuman",
+                    "id": "gbfc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 26,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "111"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.057"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "42"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "42"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "27"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Central Córdoba",
+                    "short_name": "Central Córdoba",
+                    "url_name": "central-cordoba-sde",
+                    "id": "beafh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#000000",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 27,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "110"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.048"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "35"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "35"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "40"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Sarmiento",
+                    "short_name": "Sarmiento",
+                    "url_name": "sarmiento-junin",
+                    "id": "hbbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#4AA575",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 28,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "109"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "105"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "1.038"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "41"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "35"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "33"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Banfield",
+                    "short_name": "Banfield",
+                    "url_name": "banfield",
+                    "id": "ihi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 29,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "52"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "64"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "0.812"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "0"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "33"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "19"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Aldosivi",
+                    "short_name": "Aldosivi",
+                    "url_name": "aldosivi",
+                    "id": "hccd",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#133632",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 30,
+                "values": [
+                  {
+                    "key": "Points",
+                    "value": "14"
+                  },
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Pct",
+                    "value": "0.438"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "0"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "0"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "14"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-rio-cuarto",
+                    "id": "bheaf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#77B8F2",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#E61034"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "tables": [
+        {
+          "name": "Tabla Anual - Tabla Anual",
+          "table": {
+            "is_live": false,
+            "destinations": [
+              {
+                "num": 1,
+                "color": "#0CF737",
+                "name": "Campeón de Liga. Clasificado a Copa Libertadores 2027 y  Supercopa Internacional 2026"
+              },
+              {
+                "num": 2,
+                "color": "#F5CB25",
+                "name": "CONMEBOL Libertadores"
+              },
+              {
+                "num": 3,
+                "color": "#23EBE4",
+                "name": "CONMEBOL Sudamericana"
+              },
+              {
+                "num": 4,
+                "color": "#E61034",
+                "name": "Descenso"
+              },
+              {
+                "num": 5,
+                "color": "#FF9807",
+                "name": "CONMEBOL Libertadores - Campeón Apertura 2026"
+              },
+              {
+                "num": 6,
+                "color": "#F022E2",
+                "name": "CONMEBOL Libertadores (Cupo Copa Argentina)"
+              },
+              {
+                "num": 7,
+                "color": "#B7D42A",
+                "name": "CONMEBOL Libertadores (2da Fase)"
+              }
+            ],
+            "columns": [
+              {
+                "key": "Points",
+                "title": "PTS",
+                "type": 1,
+                "is_bold": true
+              },
+              {
+                "key": "GamePlayed",
+                "title": "J",
+                "type": 1
+              },
+              {
+                "key": "Goals",
+                "title": "Gol",
+                "type": 1
+              },
+              {
+                "key": "Ratio",
+                "title": "+/-",
+                "type": 1
+              },
+              {
+                "key": "GamesWon",
+                "title": "G",
+                "type": 1
+              },
+              {
+                "key": "GamesEven",
+                "title": "E",
+                "type": 1
+              },
+              {
+                "key": "GamesLost",
+                "title": "P",
+                "type": 1
+              }
+            ],
+            "rows": [
+              {
+                "num": 1,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "46:23"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "23"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "63"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "17"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "3"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Boca Juniors",
+                    "short_name": "Boca Jrs.",
+                    "url_name": "boca-juniors",
+                    "id": "igg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#2D2E58",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#0CF737"
+              },
+              {
+                "num": 2,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "46:28"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "18"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "62"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "18"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Rosario Central",
+                    "short_name": "Central",
+                    "url_name": "rosario-central",
+                    "id": "ihf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#004080",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#F5CB25"
+              },
+              {
+                "num": 3,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "37:27"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "10"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "60"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "17"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "6"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Argentinos Juniors",
+                    "short_name": "Argentinos",
+                    "url_name": "argentinos-juniors",
+                    "id": "ihb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#DD2D2F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#F5CB25"
+              },
+              {
+                "num": 4,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "50:39"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "11"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "57"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "16"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "7"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente Rivadavia",
+                    "short_name": "Independiente Rivadavia",
+                    "url_name": "independiente-rivadavia",
+                    "id": "hcch",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#14163F",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#B7D42A"
+              },
+              {
+                "num": 5,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "44:39"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "5"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "57"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "17"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima La Plata",
+                    "short_name": "Gimnasia y Esgrima La Plata",
+                    "url_name": "gimnasia-la-plata",
+                    "id": "iia",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#23EBE4"
+              },
+              {
+                "num": 6,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "43:29"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "14"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "56"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "14"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "14"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "4"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Vélez Sarsfield",
+                    "short_name": "Vélez",
+                    "url_name": "velez-sarsfield",
+                    "id": "ihc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#23EBE4"
+              },
+              {
+                "num": 7,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "43:26"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "17"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "55"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "17"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "11"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "River Plate",
+                    "short_name": "River",
+                    "url_name": "river-plate",
+                    "id": "igi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#23EBE4"
+              },
+              {
+                "num": 8,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "43:32"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "11"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "55"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "16"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Instituto",
+                    "short_name": "Instituto",
+                    "url_name": "instituto-ac-cordoba",
+                    "id": "hchc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#23EBE4"
+              },
+              {
+                "num": 9,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "37:27"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "10"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "50"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "13"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "8"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Lanús",
+                    "short_name": "Lanús",
+                    "url_name": "lanus",
+                    "id": "igj",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#753E4A",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#23EBE4"
+              },
+              {
+                "num": 10,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "34:28"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "6"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "49"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "13"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "10"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Belgrano",
+                    "short_name": "Belgrano",
+                    "url_name": "belgrano",
+                    "id": "fhid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#358FC8",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#FF9807"
+              },
+              {
+                "num": 11,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "40:29"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "11"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "47"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "13"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "11"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes de La Plata",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-de-la-plata",
+                    "id": "igh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FAFAFA",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 12,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "32:28"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "47"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Barracas Central",
+                    "short_name": "Barracas",
+                    "url_name": "barracas-central",
+                    "id": "jafb",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 13,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "39:36"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "47"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Independiente",
+                    "short_name": "Independiente",
+                    "url_name": "independiente",
+                    "id": "ihe",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FF0000",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 14,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "39:36"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "47"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "9"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Defensa y Justicia",
+                    "short_name": "Defensa",
+                    "url_name": "defensa-y-justicia",
+                    "id": "hcbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFF00",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 15,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "31:29"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "2"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "44"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "10"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Huracán",
+                    "short_name": "Huracán",
+                    "url_name": "huracan",
+                    "id": "iie",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 16,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "48:44"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "4"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "42"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "12"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Unión",
+                    "short_name": "Unión",
+                    "url_name": "union-santa-fe",
+                    "id": "hcag",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#E93F2D",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 17,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "32:39"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "41"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "13"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Gimnasia y Esgrima",
+                    "short_name": "Gimnasia y Esgrima",
+                    "url_name": "gimnasia-mendoza",
+                    "id": "bbjbf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 18,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "23:30"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "41"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "10"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "11"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "San Lorenzo",
+                    "short_name": "San Lorenzo",
+                    "url_name": "san-lorenzo",
+                    "id": "igf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#293592",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 19,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "36:44"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-8"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "40"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "4"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "16"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Sarmiento",
+                    "short_name": "Sarmiento",
+                    "url_name": "sarmiento-junin",
+                    "id": "hbbh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#4AA575",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 20,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "34:31"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "3"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "39"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "11"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Tigre",
+                    "short_name": "Tigre",
+                    "url_name": "tigre",
+                    "id": "iid",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#263142",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 21,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "34:36"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-2"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "39"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "10"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "13"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Talleres",
+                    "short_name": "Talleres",
+                    "url_name": "talleres-cordoba",
+                    "id": "jche",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 22,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "31:40"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-9"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "38"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "14"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "10"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Newell's Old Boys",
+                    "short_name": "Newell's",
+                    "url_name": "newell's-old-boys",
+                    "id": "ihh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FD0808",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 23,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "33:39"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-6"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "36"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "14"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Racing Club",
+                    "short_name": "Racing",
+                    "url_name": "racing-club",
+                    "id": "ihg",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 24,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "28:35"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-7"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "36"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "12"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "12"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Platense",
+                    "short_name": "Platense",
+                    "url_name": "platense",
+                    "id": "hcah",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#F022E2"
+              },
+              {
+                "num": 25,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "35:44"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-9"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "33"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "8"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "15"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Banfield",
+                    "short_name": "Banfield",
+                    "url_name": "banfield",
+                    "id": "ihi",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 26,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "31:37"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-6"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "32"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "7"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "11"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "14"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Atlético Tucumán",
+                    "short_name": "Atl. Tucumán",
+                    "url_name": "atletico-tucuman",
+                    "id": "gbfc",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#FFFFFF",
+                      "text_color": "#000000"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 27,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "23:47"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-24"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "27"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "6"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "9"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "17"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Central Córdoba",
+                    "short_name": "Central Córdoba",
+                    "url_name": "central-cordoba-sde",
+                    "id": "beafh",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#000000",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 28,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "16:31"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-15"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "23"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "14"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "15"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Deportivo Riestra",
+                    "short_name": "Riestra",
+                    "url_name": "riestra",
+                    "id": "bbjea",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#28272C",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              {
+                "num": 29,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "22:45"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-23"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "19"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "10"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "19"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Aldosivi",
+                    "short_name": "Aldosivi",
+                    "url_name": "aldosivi",
+                    "id": "hccd",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#133632",
+                      "text_color": "#FFFFFF"
+                    }
+                  }
+                },
+                "destination_color": "#E61034"
+              },
+              {
+                "num": 30,
+                "values": [
+                  {
+                    "key": "GamePlayed",
+                    "value": "32"
+                  },
+                  {
+                    "key": "Goals",
+                    "value": "15:47"
+                  },
+                  {
+                    "key": "Ratio",
+                    "value": "-32"
+                  },
+                  {
+                    "key": "Points",
+                    "value": "14"
+                  },
+                  {
+                    "key": "GamesWon",
+                    "value": "3"
+                  },
+                  {
+                    "key": "GamesEven",
+                    "value": "5"
+                  },
+                  {
+                    "key": "GamesLost",
+                    "value": "24"
+                  }
+                ],
+                "entity": {
+                  "type": 1,
+                  "object": {
+                    "name": "Estudiantes",
+                    "short_name": "Estudiantes",
+                    "url_name": "estudiantes-rio-cuarto",
+                    "id": "bheaf",
+                    "country_id": "ba",
+                    "allow_open": true,
+                    "colors": {
+                      "color": "#77B8F2",
+                      "text_color": "#000000"
+                    }
+                  }
+                },
+                "destination_color": "#E61034"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -10,8 +10,8 @@ if (!path || !name) {
 }
 
 const props = await fetchNextData(path);
-const data = path.startsWith('/game/') ? props.initialData.game : path.startsWith('/team/') ? props.data : null;
-if (!data) throw new Error(`Don't know what to keep from ${path} (expected /game/... or /team/...)`);
+const data = path.startsWith('/game/') ? props.initialData.game : /^\/(team|league)\//.test(path) ? props.data : null;
+if (!data) throw new Error(`Don't know what to keep from ${path} (expected /game/..., /team/... or /league/...)`);
 
 const file = new URL(`../src/server/promiedos/__fixtures__/${name}.json`, import.meta.url);
 writeFileSync(file, JSON.stringify(data, null, 2) + '\n');

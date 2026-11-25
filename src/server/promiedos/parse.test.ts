@@ -4,7 +4,8 @@ import penalties from './__fixtures__/game-penalties.json' with { type: 'json' }
 import extraTime from './__fixtures__/game-extra-time.json' with { type: 'json' };
 import live from './__fixtures__/game-live.json' with { type: 'json' };
 import team from './__fixtures__/team.json' with { type: 'json' };
-import { parseGame, parseTeamPage } from './parse.js';
+import league from './__fixtures__/league.json' with { type: 'json' };
+import { parseGame, parseSquad, parseStandings, parseTeamPage } from './parse.js';
 
 describe('parseGame', () => {
   it('finished match: Central Córdoba 1-2 Boca', () => {
@@ -84,5 +85,31 @@ describe('parseTeamPage', () => {
     expect(t.last.every((g) => g.status === 'finished')).toBe(true);
     expect(t.next.every((g) => g.id !== '' && g.slug !== '')).toBe(true);
     expect(t.next[0].startsAt.getTime()).toBeGreaterThan(t.last[t.last.length - 1].startsAt.getTime());
+  });
+});
+
+describe('parseSquad', () => {
+  it('keeps promiedos groups and reads each player', () => {
+    const groups = parseSquad(team);
+    expect(groups.map((g) => g.name)).toEqual(['Dirección', 'Arqueros', 'Defensores', 'Mediocampistas', 'Delanteros']);
+    expect(groups[1].players[0]).toEqual({ name: 'Agustín Marchesín', number: null, age: 38, height: '1.88' });
+  });
+});
+
+describe('parseStandings', () => {
+  it('keeps only the tables where Boca plays, with clean names', () => {
+    const tables = parseStandings(league);
+    expect(tables.map((t) => `${t.tournament} · ${t.name}`)).toEqual([
+      'Clausura · Grupo A', 'Apertura · Zona A', 'Liga Profesional Argentina · Promedios', 'Liga Profesional Argentina · Tabla Anual',
+    ]);
+    for (const t of tables) expect(t.rows.some((r) => r.team.id === 'igg')).toBe(true);
+    expect(tables[0].columns[0]).toEqual({ key: 'Points', title: 'PTS' });
+    expect(tables[0].rows[0].values.GamePlayed).toMatch(/^\d+$/);
+  });
+  it('returns nothing for a knockout cup', () => {
+    expect(parseStandings({ league: { name: 'Copa Argentina' } })).toEqual([]);
+  });
+  it('throws when the shape changed', () => {
+    expect(() => parseStandings({ league: { name: 'X' }, tables_groups: [{ name: 'A', tables: [{}] }] })).toThrow();
   });
 });

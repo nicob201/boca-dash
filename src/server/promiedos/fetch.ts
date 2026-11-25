@@ -1,6 +1,7 @@
 export const PROMIEDOS = 'https://www.promiedos.com.ar';
 export const TEAM_PATH = '/team/boca-juniors/igg';
 export const gamePath = (slug: string, id: string) => `/game/${slug}/${id}`;
+export const leaguePath = (urlName: string, id: string) => `/league/${urlName}/${id}`;
 
 const API = 'https://api.promiedos.com.ar';
 const HEADERS = { 'User-Agent': 'BocaDashBot/1.0 (proyecto de un hincha)' };
