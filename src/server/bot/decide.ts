@@ -2,7 +2,7 @@ import type { MatchSnapshot } from '../promiedos/parse.js';
 import { matchdaySendAt } from '../time.js';
 import { annulledMessage, finalMessage, goalMessage, kickoffMessage, lineupMessage, matchdayMessage } from './messages.js';
 
-export type Notification = { key: string; text: string };
+export type Notification = { key: string; text: string; html?: boolean };
 
 /**
  * Pure: compares the match as it is now with the keys already sent and returns
@@ -14,10 +14,10 @@ export type Notification = { key: string; text: string };
  */
 export function decideNotifications(m: MatchSnapshot, sent: ReadonlySet<string>, now: Date): Notification[] {
   const out: Notification[] = [];
-  const add = (key: string, text: string) => { if (!sent.has(key)) out.push({ key, text }); };
+  const add = (key: string, text: string, html?: boolean) => { if (!sent.has(key)) out.push({ key, text, html }); };
 
   if (m.status === 'scheduled' && now >= matchdaySendAt(m.startsAt) && now < m.startsAt) add('matchday', matchdayMessage(m));
-  if (m.lineup?.confirmed && (m.status === 'scheduled' || m.status === 'live')) add('lineup', lineupMessage(m));
+  if (m.lineup?.confirmed && (m.status === 'scheduled' || m.status === 'live')) add('lineup', lineupMessage(m), true);
   if (m.status === 'live') add('kickoff', kickoffMessage(m));
 
   // Goals only for a match we followed live: one first seen finished just gets the final.

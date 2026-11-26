@@ -14,8 +14,8 @@ async function call(method: string, body: object): Promise<{ status: number; dat
   return { status: res.status, data: (await res.json()) as TgResponse };
 }
 
-export async function sendMessage(chatId: number, text: string): Promise<'ok' | 'blocked' | 'error'> {
-  const body = { chat_id: chatId, text, link_preview_options: { is_disabled: true } };
+export async function sendMessage(chatId: number, text: string, html = false): Promise<'ok' | 'blocked' | 'error'> {
+  const body = { chat_id: chatId, text, link_preview_options: { is_disabled: true }, ...(html && { parse_mode: 'HTML' }) };
   try {
     let r = await call('sendMessage', body);
     if (r.status === 429) {
@@ -33,10 +33,10 @@ export async function sendMessage(chatId: number, text: string): Promise<'ok' | 
 }
 
 // ponytail: serial sending (~30 msg/s); past ~800 subscribers a broadcast exceeds the 30 s tick budget, move to a queue
-export async function broadcast(text: string): Promise<{ ok: number; blocked: number; failed: number }> {
+export async function broadcast(text: string, html = false): Promise<{ ok: number; blocked: number; failed: number }> {
   const result = { ok: 0, blocked: 0, failed: 0 };
   for (const chatId of await activeChatIds()) {
-    const r = await sendMessage(chatId, text);
+    const r = await sendMessage(chatId, text, html);
     if (r === 'ok') result.ok++;
     else if (r === 'blocked') { result.blocked++; await unsubscribe(chatId); }
     else result.failed++;

@@ -25,10 +25,23 @@ export const scoreLine = (m: MatchSnapshot): string =>
 export const matchdayMessage = (m: MatchSnapshot): string =>
   `💙💛 ¡Hoy juega Boquita!\n${formatArTime(m.startsAt)} hs vs ${rival(m).name}\n${matchLine(m)}`;
 
+const escapeHtml = (s: string): string => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+/** HTML (send with parse_mode): one centered monospace row per line of the formation, keeper on top. */
 export function lineupMessage(m: MatchSnapshot): string {
-  const formation = m.lineup?.formation ? ` (${m.lineup.formation})` : '';
-  const starters = (m.lineup?.starters ?? []).map((p) => `${p.number} ${p.shortName}`);
-  return [`📋 Formación confirmada${formation}`, ...starters].join('\n');
+  const formation = m.lineup?.formation ?? null;
+  const starters = m.lineup?.starters ?? [];
+  const header = `📋 Formación confirmada${formation ? ` (${formation})` : ''}`;
+  const sizes = [1, ...(formation?.split('-').map(Number) ?? [])];
+  if (sizes.reduce((a, b) => a + b, 0) !== starters.length) {   // no formation or it doesn't add up: plain list
+    return [header, ...starters.map((p) => escapeHtml(`${p.number} ${p.shortName}`))].join('\n');
+  }
+  // ponytail: trusts promiedos to list starters line by line (keeper, defense, ...), true in every fixture; group by pitch_location.x if not
+  let i = 0;
+  const rows = sizes.map((n) => starters.slice(i, (i += n)).map((p) => p.shortName).join('  '));
+  const width = Math.max(...rows.map((r) => r.length));
+  const pitch = rows.map((r) => ' '.repeat(Math.floor((width - r.length) / 2)) + r).join('\n\n');
+  return `${header}\n<pre>${escapeHtml(pitch)}</pre>`;
 }
 
 export const kickoffMessage = (m: MatchSnapshot): string => `🟢 ¡Arrancó el partido!\n${scoreLine(m)}`;

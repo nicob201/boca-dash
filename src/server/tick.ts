@@ -46,7 +46,7 @@ export async function runTick(now = new Date()): Promise<TickReport> {
         // At-most-once: whoever claims the key sends; a crash after the claim loses that notice, never repeats it.
         for (const n of decideNotifications(snapshot, await getSentKeys(c.id), now)) {
           if (await claimNotification(c.id, n.key)) {
-            const r = await broadcast(n.text);
+            const r = await broadcast(n.text, n.html);
             report.sent.push(`${c.id}:${n.key}`);
             if (r.failed > 0) await fail(`match ${c.id} ${n.key}`, `${r.failed} of ${r.ok + r.blocked + r.failed} sends failed`);
           }

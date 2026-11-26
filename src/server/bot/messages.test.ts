@@ -27,10 +27,20 @@ describe('match messages', () => {
   it('matchday', () => {
     expect(matchdayMessage(m)).toBe('💙💛 ¡Hoy juega Boquita!\n16:15 hs vs Central Córdoba\nApertura, Fecha 9 · Liga Profesional Argentina');
   });
-  it('lineup', () => {
-    const lines = lineupMessage(m).split('\n');
+  it('lineup as a pitch, one centered row per line', () => {
+    expect(lineupMessage(m)).toBe(
+      '📋 Formación confirmada (4-2-3-1)\n<pre>' +
+      '             Leandro Brey\n\n' +
+      'Braida  Pellegrino  Figal  J. Barinaga\n\n' +
+      '       Tomás Belmonte  Alarcón\n\n' +
+      '    Zeballos  Romero  Alan Velasco\n\n' +
+      '               Giménez</pre>',
+    );
+  });
+  it('lineup without formation falls back to a list', () => {
+    const lines = lineupMessage({ ...m, lineup: { ...m.lineup!, formation: null } }).split('\n');
     expect(lines).toHaveLength(12);
-    expect(lines.slice(0, 2)).toEqual(['📋 Formación confirmada (4-2-3-1)', '12 Leandro Brey']);
+    expect(lines.slice(0, 2)).toEqual(['📋 Formación confirmada', '12 Leandro Brey']);
   });
   it('kickoff, annulled and final', () => {
     expect(kickoffMessage(m)).toBe('🟢 ¡Arrancó el partido!\nCentral Córdoba 1-2 Boca');
